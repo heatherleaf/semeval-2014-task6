@@ -1,5 +1,6 @@
 
-:- [train_data].
+%% :- [train_data].
+:- [eval_data].
 :- [rclgrammar_train].
 
 :- use_module(levenshtein, [edit_distance/3]).

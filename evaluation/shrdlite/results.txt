@@ -1,0 +1,52 @@
+
+
+Evaluation results for the Shrdlite system
+==========================================
+
+- With the spatial planner: 783/909 = 86.1%
+
+- Without the planner: 468/909 = 51.5%
+
+Note: The grammar is ambiguous and relies heavily on the spatial planner to filter out candidates.
+Without the planner, 42% of the utterances are ambiguous with between 2 and 14 trees,
+but with the planner, only 4 utterances are ambiguous (i.e., 0.4%).
+
+
+Error analysis
+--------------
+
+Almost all of the errors that the system makes are of two forms that are extremely easy to correct:
+
+- Initial puncutation: None of the training sentences start with a sequence of periods, 
+  but 58 of the evaluation sentences do. This means that the parser fails already at the
+  start of the sentence.
+
+- The word "cell" does not occur in the training sentences, but in 45 of the evaluation sentences.
+  The parser tries to correct each occurrence of "cell" into the Levenshtein-similar "cube",
+  which has a totally different semantics than the "tile" type that it should have.
+
+
+To test this, I did two very small changes to the grammar:
+
+- To allow an initial sequence of periods.
+
+- To add the words "cell" and "cells" to the lexicon entry for the "tile" type.
+
+
+With these two extremely minor additions to the grammar, I get the following results:
+
+- With the spatial planner: 886/909 = 97.5%
+
+- Without the planner: 521/909 = 57.3%
+
+Note: The grammar still relies on the planner to do a good work, but with it the result is remarkable!
+
+
+Result files
+------------
+
+All results are in the directory "results". Each file is one run, and the filename should be pretty self-explanatory. The summaries are at the end of each file.
+
+The code and the grammar is in the following Github repository:
+https://github.com/heatherleaf/semeval-2014-task6
+

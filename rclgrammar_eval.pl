@@ -1,11 +1,15 @@
 
-%% This grammar was manually created by analysing all the 2500 training sentences.
+%% This grammar is exactly like the rclgrammar_train.pl, with just two additions:
+%% - we allow for any number of initial periods
+%% - we add the lexical token "cell/cells" with the meaning of a 'tile'
 
 :- op(1200, xfx, '--->').
 :- op(950, xfx, ':>').
 :- op(900, fx, '?').
 
-main(Cmd) ---> event(Cmd), ?periods.
+main(Cmd) ---> 
+    ?periods, %% addition: initial periods
+    event(Cmd), ?periods.
 
 event(take:[E]) --->
     take_verb :> Suffix, entity(E), Suffix.
@@ -76,6 +80,7 @@ type(stack) --->
     ([stack] ; [parallelipiped] ; [parallelepiped] ; [slab] ; [tower] ; [pillar] ; [bunch]),
     ?[of,blocks].
 type(tile) ---> [tile] ; [square] ; [grid] ; [step] ; [space]
+    ; [cell] ; [cells] %% addition: "cell/cells"
     ; [tiles] ; [squares] ; [steps] ; [spaces].
 
 color(blue) ---> ?(([dark],?dashes)), [blue].
