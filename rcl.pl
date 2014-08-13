@@ -195,7 +195,8 @@ parse(Sentence, Penalty, Term, Struct) :-
     Main = (main(Term0), ['$$']),
     parse_rhs(Main, Struct-[], Penalty-0, TokenizedXX, []),
     check_term_syntax(Term0),
-    modify_term(Term0, Term).
+    modify_term(Term0, Term),
+    ground(Term).
 
 
 compare_planner_results(Delta, R1-_:_, R2-_:_) :-
@@ -216,7 +217,7 @@ planner_less_list([A|As], [B|Bs]) :-
     ( AN < BN -> true
     ; AN == BN -> planner_less_list(As, Bs)
     ).
-    
+
 % planner_less(event:[A,_,_], event:[A,_]).
 % planner_less(event:[A,B1,C1], event:[A,B2,C2]) :-
 %     term_size(B1, BS1), term_size(B2, BS2),

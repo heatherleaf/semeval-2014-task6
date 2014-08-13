@@ -1,0 +1,2121 @@
+21163   0.473s  n=1  p=0  ok    | move the white cube on the cyan cube closest to the left
+
+21166   0.516s  n=1  p=0  ok    | move the grey cube in the top right corner
+
+21172   0.519s  n=1  p=0  ok    | move the yellow cube on top of the green cube closest to the right
+
+21175   0.551s  n=1  p=0  ok    | move the red cube on the green cube closest to the left
+
+21178   0.538s  n=1  p=0  ok    | pick up the prism placed on the yellow cube and move it on the green cube
+
+21181   0.548s  n=1  p=0  ok    | pick up the cyan prism placed on the blue cube and move it on the blue cube closest to the left
+
+21184   0.511s  n=1  p=0  ok    | pick up the blue cube placed on the left side of the green cube
+
+21190   0.531s  n=1  p=0  ok    | pick up the blue cube placed on the red cube and move it on the red green tower
+
+21193   0.515s  n=1  p=0  ok    | pick up the green prism placed on the blue cube and move it in front of the green prism
+
+21199   0.551s  n=1  p=0  ok    | move the red cube on the yellow cube closest to the back
+
+21202   0.528s  n=1  p=0  ok    | move the red prism one square backwards
+
+21205   0.509s  n=1  p=0  ok    | drop the prism
+
+21208   0.501s  n=1  p=0  ok    | drop the red cube
+
+21211   0.499s  n=1  p=0  ok    | pick up the green cube placed on the yellow cube and move it on the red cube
+
+21217   0.505s  n=1  p=0  ok    | drop the cube
+
+21223   0.510s  n=1  p=0  ok    | move the prism on the grey cube
+
+21226   0.523s  n=1  p=0  ok    | move the yellow cube one square backwards
+
+21229   0.545s  n=1  p=0  ok    | move the green cube closest to the center of the board and place it on the green cube
+
+21232   0.541s  n=1  p=0  ok    | move the prism on the red cube
+
+21235   0.517s  n=1  p=0  ok    | drop the cube
+
+21241   0.527s  n=1  p=0  ok    | pick up the pink cube placed on the red cube and move it in the top right corner
+
+21244   0.547s  n=1  p=0  ok    | pick up the red prism closest to the left and move it on the green cube
+
+21247   0.496s  n=1  p=0  ok    | pick up the blue prism
+
+21253   0.580s  n=1  p=0  ok    | move the blue cube in the corner on the cyan cube closest to the top
+
+21256   0.505s  n=1  p=0  ok    | move the cyan prism in the top left corner
+
+21259   0.521s  n=1  p=0  ok    | drop the cube
+
+21265   0.521s  n=1  p=0  ok    | drop the prism
+
+21268   0.536s  n=1  p=0  ok    | move the cyan prism on the cyan cube
+
+21283   0.586s  n=1  p=2  ok    | pick up the blue block from the top of the green block and put it down on the blue block which lies next to another green block
+   @ lies/[]:2
+
+21329   0.535s  n=1  p=0  ok    | move the turquoise pyramid above the yellow cube .
+
+21331   0.498s  n=1  p=0  ok    | pick up the turquoise pyramid .
+
+21338   0.521s  n=1  p=0  miss  | move the pink pyramid on top of the turquoise cubes .
+ = event:[action:move,entity:[id:1,color:magenta,type:prism],destination:[spatial-relation:[relation:above,entity:[color:cyan,type:cube-group]]]]
+ - event:[action:move,entity:[color:magenta,type:prism],destination:[spatial-relation:[relation:above,entity:[color:cyan,type:cube-group]]]]
+   + [color/id,magenta/1,type/color,prism/magenta,[]/ .,/ (type:prism),/[]]
+
+21367   7.428s  n=1  p=6  ok    | move the red pyramid one cell to the left .
+   @ cell/[]:2 to/tile:4
+
+21383   0.609s  n=1  p=0  ok    | move the cyan block on the yellow block
+
+21407   0.653s  n=1  p=0  ok    | place the yellow triangle on the blue block .
+
+21414   0.618s  n=1  p=0  ok    | move the gray cube on top of the green cube .
+
+21417   0.655s  n=1  p=0  ok    | move the yellow cube on top of the blue cube standing in the top left corner .
+
+21420   0.641s  n=1  p=0  ok    | move the yellow cube on top of the blue cube .
+
+21426   0.691s  n=1  p=0  ok    | move the blue pyramid on top of the yellow cube nearest to the right back corner .
+
+21433   0.537s  n=1  p=0  ok    | pick up the green block .
+
+21440   0.606s  n=1  p=0  ok    | move the gray cube nearest to the top edge on top of the tower standing on the top right corner .
+
+21450   0.541s  n=1  p=0  ok    | pick up the blue cube standing over the green cube nearest to the left edge . drop it on the blue cube nearest to the bottom edge .
+
+21465   0.460s  n=1  p=0  ok    | drop the green cube .
+
+21481   0.466s  n=1  p=0  ok    | move the turquoise pyramid on top of the yellow cube nearest to the top left corner .
+
+21484   0.479s  n=1  p=0  ok    | place the blue block two squares to the right of the blue pyramid .
+
+21486   0.468s  n=1  p=0  ok    | pick up the gray cube and place it on the turquoise cube nearest to the right edge .
+
+21513   0.481s  n=1  p=0  ok    | pick up the red cube nearest to the left edge .
+
+21533   0.468s  n=1  p=0  ok    | pick up the red cube and place it on top of the tower standing on the top left corner .
+
+21536   0.511s  n=1  p=0  ok    | move the yellow block on the corner to the green block closest to the center .
+
+21544   0.499s  n=1  p=0  ok    | move the yellow block on the corner to the green block that is closest to the center .
+
+21567   3.151s  n=1  p=3  ok    | move the red prism on the green block , onto the yellow block closest to the back , .
+   @ (,)/[]:3
+
+21568   0.466s  n=1  p=0  ok    | pick up the green cube .
+
+21571   0.435s  n=1  p=0  ok    | pick up the blue cube .
+
+21583   0.564s  n=1  p=3  miss  | move the yellow pyramid to the left - most blue block .
+ = event:[action:move,entity:[id:1,color:yellow,type:prism],destination:[spatial-relation:[relation:above,entity:[indicator:leftmost,color:blue,type:cube]]]]
+ - event:[action:move,entity:[color:yellow,type:prism],destination:[spatial-relation:[relation:above,entity:[indicator:leftmost,color:blue,type:cube]]]]
+   + [color/id,yellow/1,type/color,prism/yellow,[]/ .,/ (type:prism),/[]]
+   @ (-)/[]:3
+
+21585   0.548s  n=1  p=2  ok    | move the turquoise pyramid on top the green cube standing in the top left corner .
+   @ top/to:2
+
+21593   0.471s  n=1  p=0  ok    | place the yellow block on the green block .
+
+21598   0.450s  n=1  p=0  ok    | move the pink pyramid standing on a blue cube on top of the yellow cube .
+
+21604   0.486s  n=1  p=0  ok    | place the red pyramid on the top left corner .
+
+21607   0.472s  n=1  p=0  ok    | move the gray pyramid on top of the red cube standing in the bottom right corner .
+
+21610   0.472s  n=1  p=0  ok    | place the red pyramid next to the grey block on top of the turquoise block .
+
+21616   0.458s  n=1  p=0  ok    | place the yellow prism on top of the red cube .
+
+21622   0.456s  n=1  p=0  ok    | move the green prism to the bottom left corner .
+
+21628   0.486s  n=1  p=0  ok    | move the purple prism onto the gray block closest to the left .
+
+21634   0.453s  n=1  p=0  ok    | pick up the blue pyramid
+
+21637   0.441s  n=1  p=0  ok    | pick up the left gray cube
+
+21643   0.460s  n=1  p=0  ok    | move the pyramid on the left red cube
+
+21654   0.544s  n=1  p=2  ok    | place the blue block on top of the lone yellow block .
+   @ lone/[]:2
+
+21664   0.471s  n=1  p=0  miss  | move the yellow cube to the top right corner
+ = event:[action:move,entity:[id:1,color:yellow,type:cube],destination:[spatial-relation:[relation:within,entity:[indicator:front,indicator:right,type:corner]]]]
+ - event:[action:move,entity:[color:yellow,type:cube],destination:[spatial-relation:[relation:within,entity:[indicator:front,indicator:right,type:corner]]]]
+   + [color/id,yellow/1,type/color,cube/yellow,[]/ .,/ (type:cube),/[]]
+
+21673   0.539s  n=1  p=2  ok    | place the blue block on top the green block .
+   @ top/to:2
+
+21679   0.458s  n=2  p=0  amok  | place the white block to the left of the pink block .
+ = event:[action:drop,entity:[color:white,type:cube],destination:[spatial-relation:[relation:left,entity:[color:magenta,type:cube]]]]
+ ---
+ - event:[action:drop,entity:[color:white,type:cube,spatial-relation:[relation:left,entity:[color:magenta,type:cube]]]]
+   + [. / [], (spatial-relation:[relation:left,entity:[color:magenta,type:cube]])/,[]/,[]/ .,/ (destination:[spatial-relation:[relation:left,entity:[color:magenta,type:cube]]]),/[]]
+
+21717   0.462s  n=1  p=0  ok    | place the blue block on top of the white block
+
+21718   0.457s  n=1  p=0  ok    | move the cyan pyramid that is on top of the blue block to the other blue block .
+
+21733   0.453s  n=1  p=0  ok    | move the blue pyramid to the top of the red block .
+
+21745   0.596s  n=1  p=0  ok    | place the block on the back right corner on the blue block .
+
+21751   0.477s  n=1  p=0  ok    | place the red cube on the top left corner .
+
+21754   0.489s  n=1  p=0  miss  | move the cyan block that is closest to the top right corner , to the top left corner .
+ = event:[action:move,entity:[id:1,color:cyan,type:cube,spatial-relation:[relation:nearest,entity:[indicator:front,indicator:right,type:corner]]],destination:[spatial-relation:[relation:within,entity:[indicator:front,indicator:left,type:corner]]]]
+ - event:[action:move,entity:[color:cyan,type:cube,spatial-relation:[relation:nearest,entity:[indicator:front,indicator:right,type:corner]]],destination:[spatial-relation:[relation:within,entity:[indicator:front,indicator:left,type:corner]]]]
+   + [color/id,cyan/1,type/color,cube/cyan,spatial-relation/type,. / cube, (relation:nearest)/,[entity:[indicator:front,indicator:right,type:corner]]/,[]/ .,/ (spatial-relation:[relation:nearest,entity:[indicator:front,indicator:right,type:corner]]),/[]]
+
+21757   0.957s  n=1  p=6  ok    | place the left - most pyramid on top of the left - most red block .
+   @ (-)/[]:3 (-)/[]:3
+
+21760   0.453s  n=1  p=0  ok    | move the green block closest to the center on top of the green block on the corner .
+
+21766   0.478s  n=1  p=0  ok    | move the pyramid to the top left corner .
+
+21780   0.491s  n=1  p=0  ok    | move the yellow block to the blue block that is next to the pyramid .
+
+21799   0.469s  n=1  p=3  ok    | pickup the cube closet to top left corner
+   @ pickup/pick:2 closet/closest:1
+
+21802   0.458s  n=1  p=0  ok    | place red cube on green cube
+
+21811   0.443s  n=1  p=0  ok    | move the green block on top of the white block .
+
+21814   0.446s  n=1  p=0  ok    | pick up the cyan block .
+
+21823   0.453s  n=1  p=0  ok    | place the grey brick on the green one .
+
+21844   0.448s  n=1  p=0  ok    | pick up the block to the right of the red block .
+
+21853   0.530s  n=1  p=0  ok    | place the red pyramid on the top left corner .
+
+21862   0.464s  n=1  p=0  ok    | move the red block that is on top of a grey block on top of the green block .
+
+21865   0.499s  n=1  p=0  ok    | place the pyramid that is closest to the center on the red block .
+
+21880   0.474s  n=1  p=0  ok    | move the pyramid to the green block .
+
+21898   0.490s  n=1  p=0  ok    | place the pyramid that is next to the yellow block on the blue block .
+
+21901  13.931s  n=3  p=8  miss  | move the block one place to the back .
+ = event:[action:move,entity:[type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:backward]]]
+ - event:[action:move,entity:[type:cube],destination:[spatial-relation:[relation:above,entity:[type:cube]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / backward, (type:cube)/,[]/]
+   @ one/on:2 place/[]:3 back/block:3
+ - event:[action:move,entity:[type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,cardinal:2,type:tile]],relation:backward]]]
+   + [cardinal/type,2/tile,. / [], (type:tile)/,[]/]
+   @ place/[]:3 to/two:2 the/tile:3
+ - event:[action:move,entity:[type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,indicator:front,type:tile]],relation:backward]]]
+   + [indicator/type,front/tile,. / [], (type:tile)/,[]/]
+   @ place/[]:3 to/top:2 the/tile:3
+
+21906   0.469s  n=1  p=0  ok    | place the yellow cube on top of the blue one .
+
+21927   0.442s  n=1  p=0  ok    | pick up the green cube .
+
+21935   0.456s  n=1  p=0  ok    | pick up the green cube placed on top of the tower nearest to the top right corner .
+
+21939   0.469s  n=1  p=0  ok    | move the blue cube on top of the green cube .
+
+21942   0.461s  n=1  p=0  ok    | take red block from stack on right and put it on red stack nearest to the back
+
+21962   0.453s  n=1  p=0  ok    | move the red block on top of the other yellow block .
+
+21976   0.444s  n=1  p=0  ok    | pick up the blue cube nearest to the left edge .
+
+21977   0.441s  n=1  p=0  ok    | move the pyramid to the red block .
+
+21989   0.491s  n=1  p=3  ok    | place the left - most pyramid on the blue block .
+   @ (-)/[]:3
+
+21994   0.470s  n=1  p=0  ok    | move the red block to the green block that is closest to the top left corner .
+
+22006   0.459s  n=1  p=0  ok    | pick up the red pyramid that is closest to the top .
+
+22015   0.459s  n=1  p=0  ok    | pick up the pink pyramid nearest to the right edge . place it on top of the turquoise cube .
+
+22018   0.488s  n=1  p=0  ok    | place the pyramid next to the grey block on the cyan block .
+
+22021   0.445s  n=1  p=0  ok    | drop the block .
+
+22022   0.462s  n=1  p=0  ok    | drop the green cube .
+
+22027   0.496s  n=1  p=0  ok    | move the turquoise pyramid on top of the yellow - red tower , nearest to the top edge .
+
+22033   0.465s  n=1  p=0  ok    | place the blue cube on top of the red cube .
+
+22036   0.535s  n=1  p=0  ok    | pick up the gray cube nearest to the right edge . place it on top of the tower standing on the right back corner .
+
+22061   0.483s  n=1  p=0  ok    | pick up the red cube and place it on top of the yellow - blue - gray tower .
+
+22076   0.569s  n=1  p=0  ok    | place the red pyramid on the green block .
+
+22080   0.479s  n=1  p=0  ok    | move the gray pyramid on top of the tower nearest to the bottom right corner .
+
+22089   0.470s  n=1  p=0  ok    | pick up the yellow pyramid standing on the red cube . place it on top of the green tower .
+
+22093   0.474s  n=1  p=0  ok    | place the white block on the back right corner .
+
+22104   0.458s  n=1  p=0  ok    | move the pyramid to the red block .
+
+22110   0.475s  n=1  p=0  ok    | pick up the blue cube nearest to the right edge .
+
+22113   0.472s  n=1  p=0  ok    | move the pink pyramid on top of the red cube .
+
+22116   0.446s  n=1  p=0  ok    | drop the red pyramid .
+
+22128   0.470s  n=1  p=0  ok    | pick up the blue cube and place it on the green cube nearest to the bottom left corner .
+
+22134   0.463s  n=1  p=0  ok    | pick up the red cube and place it on top of the gray one .
+
+22143   0.445s  n=1  p=0  ok    | drop the yellow cube .
+
+22152   0.485s  n=1  p=0  ok    | pick up the blue cube nearest to the bottom left corner .
+
+22173   0.454s  n=1  p=0  ok    | pick up the blue pyramid .
+
+22188   0.479s  n=1  p=0  ok    | move the red cube in the top left corner .
+
+22200   0.455s  n=1  p=0  ok    | pick up the red cube and place it on top of the white and blue tower .
+
+22209   0.446s  n=1  p=0  ok    | pick up the blue pyramid .
+
+22221   0.472s  n=1  p=0  ok    | place the white pyramid on top of the blue cube .
+
+22224   0.473s  n=1  p=0  ok    | move the green pyramid next to the blue cube on top of the blue cube .
+
+22227   0.459s  n=1  p=0  ok    | move the green pyramid on top of the yellow cube .
+
+22230   0.687s  n=1  p=2  ok    | pick up the blue cube nearest to the left edge and place on top of the red cube nearest to the same edge .
+   @ same/[]:2
+
+22233   0.649s  n=1  p=0  ok    | drop the yellow cube .
+
+22236   0.482s  n=1  p=0  ok    | move the blue cube on top of the green cube .
+
+22242   0.494s  n=1  p=0  ok    | pick up the red pyramid standing on a green cube and place it on top of the blue tower .
+
+22245   0.485s  n=1  p=0  ok    | drop the yellow pyramid .
+
+22254   0.441s  n=1  p=0  ok    | pick up the green cube nearest to the center of the board .
+
+22260   0.490s  n=1  p=0  ok    | pick up the turquoise pyramid standing on the green cube nearest to the left edge and place it on the yellow cube nearest to the bottom edge .
+
+22263   0.460s  n=1  p=0  ok    | drop the red cube .
+
+22272   5.459s  n=1  p=5  miss  | pick up the green cube and place it one cell to the left of the blue cube nearest to the bottom edge .
+ = sequence:[event:[action:take,entity:[id:1,color:green,type:cube]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:left,entity:[color:blue,type:cube,spatial-relation:[relation:nearest,entity:[indicator:back,type:edge]]]]]]]
+ - sequence:[event:[action:take,entity:[id:1,color:green,type:cube]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:left,entity:[color:blue,type:cube,spatial-relation:[relation:nearest,entity:[indicator:back,type:edge]]]]]]]
+   + [relation/measure,left/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / left, (color:blue)/,[type:cube,spatial-relation:[relation:nearest,entity:[indicator:back,type:edge]]]/,[]/ .,/ (entity:[color:blue,type:cube,spatial-relation:[relation:nearest,entity:[indicator:back,type:edge]]]),/[]]
+   @ one/[]:3 cell/[]:2
+
+22275   0.486s  n=1  p=0  ok    | pick up the pyramid standing on the red - green tower and place it on the tower nearest to the top left corner of the board .
+
+22278   0.458s  n=1  p=0  ok    | pick up the red pyramid nearest to the right edge of the board .
+
+22281   0.608s  n=1  p=0  ok    | drop the green cube .
+
+22284   2.924s  n=1  p=4  miss  | pick up the blue cube standing on another blue cube and place it one cell left of the single red cube .
+ = sequence:[event:[action:take,entity:[id:1,color:blue,type:cube,spatial-relation:[relation:above,entity:[color:blue,type:cube]]]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:left,entity:[indicator:individual,color:red,type:cube]]]]]
+ - sequence:[event:[action:take,entity:[id:1,color:blue,type:cube,spatial-relation:[relation:above,entity:[color:blue,type:cube]]]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:left,entity:[indicator:individual,color:red,type:cube]]]]]
+   + [relation/measure,left/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / left, (indicator:individual)/,[color:red,type:cube]/,[]/ .,/ (entity:[indicator:individual,color:red,type:cube]),/[]]
+   @ one/on:2 cell/[]:2
+
+22292   0.468s  n=1  p=0  ok    | move the cyan pyramid to the top left corner .
+
+22298   0.454s  n=1  p=0  ok    | pick up the single red cube nearest to the right edge and place it in the bottom right corner .
+
+22304   0.447s  n=1  p=0  ok    | pick up the white pyramid and place it on top of the tower standing in the bottom left corner .
+
+22307   0.476s  n=1  p=0  ok    | pick up the pink pyramid standing on the blue cube and place it on top of the yellow - red tower .
+
+22310   0.480s  n=1  p=0  ok    | pick up the blue cube nearest to the top right corner and place it on the pink cube .
+
+22322   0.463s  n=1  p=0  ok    | pick up the yellow pyramid and place it on top of the green tower .
+
+22328   0.469s  n=1  p=0  ok    | pick up the yellow cube and place it on top of the tower standing in the bottom left corner of the board .
+
+22331   0.564s  n=1  p=0  ok    | drop the blue pyramid .
+
+22340   0.541s  n=1  p=0  ok    | pick up the grey cube and place it on top of the blue one .
+
+22347   0.452s  n=1  p=0  ok    | pick up the gray pyramid and place it on top of the tower nearest to the bottom right corner .
+
+22350   0.467s  n=1  p=0  ok    | pick up the white cube standing in the top left corner and place it on the red cube nearest to the bottom edge of the board .
+
+22354   0.471s  n=1  p=0  ok    | pick up the pink pyramid and place it on top of the blue cube nearest to the left edge of the board .
+
+22359   0.452s  n=1  p=0  ok    | pick up the gray cube nearest to the right edge and place it on top of the tower standing in the bottom right corner .
+
+22372   0.458s  n=1  p=0  ok    | pick up the yellow pyramid standing on top of the pink tower and place it on the red cube .
+
+22376   0.438s  n=1  p=0  ok    | drop the cube
+
+22380   0.465s  n=1  p=0  ok    | pick up the turquoise pyramid standing over a white cube and place on top of the blue and green tower .
+
+22391   0.474s  n=1  p=0  ok    | pick up the white cube standing on a grey cube and place it on the single green cube nearest to the top edge of the board .
+
+22401   0.471s  n=1  p=0  ok    | move the cyan pyramid to the yellow square .
+
+22406   6.136s  n=1  p=5  miss  | move the block back one square .
+ = event:[action:move,entity:[type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:backward]]]
+ - event:[action:move,entity:[type:cube],destination:[spatial-relation:[relation:above,entity:[type:cube]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / backward, (type:cube)/,[]/]
+   @ back/[]:3 one/on:2
+
+22413   0.446s  n=1  p=0  ok    | pick up the turquoise pyramid .
+
+22427   0.490s  n=1  p=0  ok    | place the pyramid on the right on the blue cube .
+
+22433   0.498s  n=1  p=2  ok    | pick up the gray pyramid and place it on top the red - yellow tower .
+   @ top/to:2
+
+22445   0.450s  n=1  p=0  ok    | pick up the single red cube nearest to the right edge and place it in the bottom right corner .
+
+22457   0.463s  n=1  p=0  ok    | pick up the yellow pyramid and place it on top of the red - green tower .
+
+22464   0.452s  n=1  p=0  ok    | pick up the red cube nearest to the top edge and place it over the turquoise cube nearest to the bottom edge of the board .
+
+22470   0.444s  n=1  p=0  ok    | pick up the white cube standing in the top left corner .
+
+22473   0.550s  n=1  p=2  ok    | pick up the blue cube nearest to the left edge and place it on top of the red cube nearest to the same edge .
+   @ same/[]:2
+
+22476   0.439s  n=1  p=0  ok    | pick up the yellow pyramid and place it on top of the yellow cube .
+
+22485   0.447s  n=1  p=0  ok    | pick up the red pyramid nearest to the top edge and place it on top of the red cube .
+
+22491   0.450s  n=1  p=0  ok    | pick up the red pyramid and place it on top of the single blue cube .
+
+22494   0.450s  n=1  p=0  ok    | pick up the red pyramid nearest to the top edge of the board .
+
+22503   0.447s  n=1  p=0  ok    | pick up the blue cube nearest to the right edge .
+
+22511   0.444s  n=1  p=0  ok    | pick up the red cube and place on the top of the blue cube nearest to the bottom left corner .
+
+22514   0.446s  n=1  p=0  ok    | pick up the green cube and place it on top of the blue one .
+
+22517   0.434s  n=1  p=0  ok    | pick up the yellow pyramid nearest to the bottom edge of the board .
+
+22520   0.502s  n=1  p=0  ok    | pick up the yellow pyramid standing on the red - green tower and place it on the yellow - green tower , near to the top left corner of the board .
+
+22523   0.476s  n=1  p=0  ok    | pick up the yellow pyramid nearest to the left edge and place it on top of the tower nearest to the top left corner .
+
+22529   0.471s  n=1  p=0  ok    | pick up the pink pyramid and place it on top of the green and blue tower .
+
+22532   0.467s  n=1  p=0  ok    | pick up the gray cube and place it on top of the green cube .
+
+22538   0.438s  n=1  p=0  ok    | pick up the white cube and place it on top of the tower standing in the bottom right corner .
+
+22541   0.452s  n=1  p=0  ok    | pick up the turquoise pyramid standing in the bottom right corner and place it over the green cube nearest to the right edge .
+
+22544   0.432s  n=1  p=0  ok    | pick up the yellow pyramid and place it on the red cube .
+
+22549   0.457s  n=1  p=0  ok    | pick up the pink pyramid .
+
+22559   0.457s  n=1  p=0  ok    | pick up the yellow cube and place it on the blue cube nearest to the top edge of the board .
+
+22560   0.497s  n=1  p=0  ok    | place the left pyramid on the blue block
+
+22568   0.483s  n=1  p=0  ok    | pick up the pink pyramid and place it on the gray cube nearest to the top edge of the board .
+
+22580   0.474s  n=1  p=0  ok    | place the grey cube on the red block .
+
+22587   0.439s  n=1  p=0  ok    | pick up the turquoise pyramid and place it over the red cube standing in the top left corner .
+
+22592   0.439s  n=1  p=0  ok    | pick up the yellow cube .
+
+22601   0.448s  n=1  p=0  ok    | pick up the red pyramid and place over the single green cube .
+
+22604   0.456s  n=1  p=0  ok    | pick up the blue cube nearest to the left edge of the board .
+
+22607   0.483s  n=1  p=0  ok    | pick up the yellow cube and place it over the tower nearest to the top left corner of the board .
+
+22613  19.128s  n=0  p=8  fail  | move the green cube one cell back .
+ = event:[action:move,entity:[color:green,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:backward]]]
+
+22616   0.472s  n=1  p=0  ok    | pick up the red cube and place it in the top left corner .
+
+22622   0.468s  n=1  p=0  ok    | pick up the yellow pyramid and place it over the gray cube standing in the top right corner of the board .
+
+22625   0.535s  n=1  p=0  ok    | pick up the blue cube nearest to the bottom left corner .
+
+22635   2.995s  n=1  p=4  miss  | pick up the yellow cube and place it one cell left of the blue cube nearest to the bottom right corner of the board .
+ = sequence:[event:[action:take,entity:[id:1,color:yellow,type:cube]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:left,entity:[color:blue,type:cube,spatial-relation:[relation:nearest,entity:[indicator:back,indicator:right,type:corner]]]]]]]
+ - sequence:[event:[action:take,entity:[id:1,color:yellow,type:cube]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:left,entity:[color:blue,type:cube,spatial-relation:[relation:nearest,entity:[indicator:back,indicator:right,type:corner]]]]]]]
+   + [relation/measure,left/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / left, (color:blue)/,[type:cube,spatial-relation:[relation:nearest,entity:[indicator:back,indicator:right,type:corner]]]/,[]/ .,/ (entity:[color:blue,type:cube,spatial-relation:[relation:nearest,entity:[indicator:back,indicator:right,type:corner]]]),/[]]
+   @ one/on:2 cell/[]:2
+
+22640   0.431s  n=1  p=0  ok    | pick up the blue cube and place it over the green - red tower .
+
+22644   0.427s  n=1  p=0  ok    | pick up the red cube and place it over the green one .
+
+22655   0.446s  n=1  p=0  ok    | pick up the green cube .
+
+22664   0.441s  n=1  p=0  ok    | pick up the red cube and place it over the yellow one .
+
+22667   0.465s  n=1  p=0  ok    | drop the red cube .
+
+22670   0.433s  n=1  p=0  ok    | pick up the yellow pyramid and place it over the yellow cube .
+
+22673   0.454s  n=1  p=0  ok    | pick up the turquoise pyramid nearest to the right edge and place it over the gray cube .
+
+22676   3.166s  n=1  p=4  miss  | pick up the blue pyramid nearest to the top edge and place it one cell right of the white pyramid nearest to the bottom edge .
+ = sequence:[event:[action:take,entity:[id:1,color:blue,type:prism,spatial-relation:[relation:nearest,entity:[indicator:front,type:edge]]]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:right,entity:[color:white,type:prism,spatial-relation:[relation:nearest,entity:[indicator:back,type:edge]]]]]]]
+ - sequence:[event:[action:take,entity:[id:1,color:blue,type:prism,spatial-relation:[relation:nearest,entity:[indicator:front,type:edge]]]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:right,entity:[color:white,type:prism,spatial-relation:[relation:nearest,entity:[indicator:back,type:edge]]]]]]]
+   + [relation/measure,right/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / right, (color:white)/,[type:prism,spatial-relation:[relation:nearest,entity:[indicator:back,type:edge]]]/,[]/ .,/ (entity:[color:white,type:prism,spatial-relation:[relation:nearest,entity:[indicator:back,type:edge]]]),/[]]
+   @ one/on:2 cell/[]:2
+
+22682   0.464s  n=1  p=0  ok    | pick up the pink pyramid standing over the blue cube and place it over the yellow - red tower , nearest to the bottom left corner .
+
+22686   0.468s  n=1  p=0  ok    | pick up the gray cube in front of the yellow cube and place it over the yellow cube .
+
+22690   0.841s  n=1  p=4  ok    | pick up the blue cube and place it over the smaller red - blue tower , that stands on the left edge of the board .
+   @ smaller/[]:2 stands/[]:2
+
+22692   0.449s  n=1  p=0  ok    | move the red block on top of the blue block .
+
+22705   7.556s  n=1  p=8  miss  | pick up the green cube and place it two cells up .
+ = sequence:[event:[action:take,entity:[id:1,color:green,type:cube]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[measure:[entity:[cardinal:2,type:tile]],relation:forward]]]]
+ - sequence:[event:[action:take,entity:[id:1,color:green,type:cube]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[type:cube-group]]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:2,type:tile]),/[],entity/relation,. / forward, (type:cube-group)/,[]/]
+   @ two/to:2 cells/cubes:3 up/[]:3
+
+22715   0.455s  n=1  p=0  ok    | pick up the pink pyramid nearest to the right edge and place it over the red cube nearest to the top right corner of the board .
+
+22718   0.449s  n=1  p=0  ok    | pick up the yellow cube .
+
+22724   0.494s  n=1  p=0  ok    | pick up the blue cube and place it over the green cube standing in the bottom right corner .
+
+22732  43.462s  n=0  p=8  fail  | move the green block back one step .
+ = event:[action:move,entity:[color:green,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:backward]]]
+
+22740   0.427s  n=1  p=0  ok    | pick up the blue cube and place it over the yellow cube .
+
+22745   0.479s  n=1  p=0  ok    | move the blue cube one step to the left .
+
+22752   0.438s  n=1  p=0  ok    | pick up the red cube and place it over the green one .
+
+22757   0.433s  n=1  p=0  ok    | pick up the red cube and place it over the pink one .
+
+22766   0.483s  n=1  p=0  ok    | move the red block on the corner two steps left .
+
+22771   0.437s  n=1  p=0  ok    | pick up the green block .
+
+22777   0.462s  n=1  p=0  ok    | place the green block on top of the blue block .
+
+22781   0.452s  n=1  p=0  ok    | place the red cube on the blue cube .
+
+22792  17.914s  n=0  p=8  fail  | move the green cube one cell backwards .
+ = event:[action:move,entity:[color:green,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:backward]]]
+
+22800   0.470s  n=1  p=0  ok    | pick up the blue cube and place it over the yellow - red tower .
+
+22805   0.442s  n=1  p=0  ok    | pick up the gray cube nearest to the bottom left corner .
+
+22809   0.442s  n=1  p=0  ok    | pick up the red cube and place over the red - white tower .
+
+22812   0.417s  n=1  p=0  ok    | pick up the white cube standing in the top left corner of the board .
+
+22823   0.423s  n=1  p=0  ok    | drop the green cube .
+
+22826   0.453s  n=1  p=0  ok    | pick up the blue pyramid nearest to the top edge of the board .
+
+22830   0.446s  n=1  p=0  ok    | pick up the gray cube standing in the top right corner and place over the other gray cube .
+
+22838   0.464s  n=1  p=0  ok    | lift the green pyramid .
+
+22843   0.557s  n=1  p=3  ok    | move the pyramid to the left - most tower .
+   @ (-)/[]:3
+
+22849   0.677s  n=1  p=3  ok    | place the pyramid on the left - most blue block .
+   @ (-)/[]:3
+
+22855   0.443s  n=1  p=0  ok    | pick up the pink pyramid and place it over the gray cube nearest to the bottom edge .
+
+22874   0.423s  n=1  p=0  ok    | pick up the green cube .
+
+22882   0.440s  n=1  p=0  ok    | pick up the yellow pyramid nearest to the right edge and place it over the red cube .
+
+22885   0.439s  n=1  p=0  ok    | pick up the yellow pyramid and place it over the single blue cube , near to the center of the board .
+
+22891   0.434s  n=1  p=0  ok    | pick up the gray pyramid and place it over the red - white tower .
+
+22900   0.468s  n=1  p=0  ok    | pick up the red pyramid standing on the floor and place it over the yellow - green tower .
+
+22904   0.451s  n=1  p=0  ok    | pick up the blue cube and place it on top of the yellow cube .
+
+22907   0.452s  n=1  p=0  ok    | pick up the red cube and place it on the green cube nearest to the top left corner .
+
+22918   0.456s  n=1  p=0  ok    | pick up the gray pyramid standing on the green - red tower and place it over the green - blue tower .
+
+22926   0.431s  n=1  p=0  ok    | pick up the blue pyramid nearest to the top left corner of the board .
+
+22930   0.439s  n=1  p=0  ok    | pick up the blue cube nearest to the bottom left corner and place over the blue cube nearest to the top left corner of the board .
+
+22933   3.339s  n=0  p=8  fail  | pick up the blue prism and move it left 2 places .
+ = sequence:[event:[action:take,entity:[id:1,color:blue,type:prism]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[measure:[entity:[cardinal:2,type:tile]],relation:left]]]]
+
+22934   0.688s  n=1  p=0  ok    | pick up the red cube and place it over the gray cube standing in the bottom right corner of the board .
+
+22938   4.187s  n=3  p=6  amok  | pick up the pink pyramid and place it over the cyan tower of cubes .
+ = sequence:[event:[action:take,entity:[id:1,color:magenta,type:prism]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:cyan,type:stack]]]]]
+ ---
+   @ of/[]:3 cubes/[]:3
+ - sequence:[event:[action:take,entity:[id:1,color:magenta,type:prism]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:cyan,type:cube-group]]]]]
+   + [cube-group/stack]
+   @ tower/[]:3 of/[]:3
+ - sequence:[event:[action:take,entity:[id:1,color:magenta,type:prism]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:cyan,cardinal:1,type:cube-group]]]]]
+   + [cardinal/type,1/stack,. / [], (type:cube-group)/,[]/]
+   @ tower/[]:3 of/one:3
+
+22945   0.477s  n=1  p=0  ok    | pick up the blue cube standing on the red cube , then move it on top of the green cube .
+
+22946   0.459s  n=1  p=0  ok    | move the red cube in the bottom left corner of the board .
+
+22950   0.552s  n=1  p=0  ok    | pick up the gray cube and place it over the green one .
+
+22954   0.569s  n=1  p=0  ok    | pick up the gray pyramid and place it in the bottom right corner .
+
+22957   0.551s  n=1  p=0  ok    | pick up the yellow pyramid and place it over the blue cube .
+
+22969   0.456s  n=1  p=0  ok    | pick up the blue pyramid and place it over the yellow cube nearest to the bottom right corner of the board .
+
+22982   0.473s  n=1  p=0  ok    | move the green prism on top of the yellow cube .
+
+22996   0.543s  n=1  p=0  ok    | pick up the red pyramid standing over a blue cube and place it over the green cube nearest to the right edge of the board .
+
+23012   0.527s  n=1  p=0  ok    | pick up the yellow pyramid nearest to the top left corner .
+
+23016  19.425s  n=0  p=8  fail  | pick up the purple prism , then place it on top of the blue tower .
+ = sequence:[event:[action:take,entity:[id:1,color:magenta,type:prism]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:cyan,type:stack]]]]]
+
+23031   0.498s  n=1  p=0  ok    | drop the blue block on top of the yellow block .
+
+23037   0.508s  n=1  p=0  ok    | pick up one green cube and place it on top of the red block .
+
+23046   0.508s  n=1  p=0  ok    | pick up the blue block and place it on top of the red block .
+
+23049   0.580s  n=1  p=3  ok    | pick up the blue cube that is standing on the yellow cube , then place it on top of the red cube .
+   @ standing/[]:3
+
+23052   0.497s  n=1  p=0  ok    | pick up the purple prism .
+
+23079   0.478s  n=1  p=0  ok    | pick up the blue cube and place it on top of the white cube .
+
+23082   0.474s  n=1  p=0  ok    | pick up one white cube from the white tower and place it on top of the grey cube .
+
+23090   0.449s  n=1  p=0  ok    | drop the green cube .
+
+23093   0.457s  n=1  p=0  ok    | pick up the pink pyramid and place it on top of the gray cube nearest to the right edge of the board .
+
+23096   0.457s  n=1  p=0  ok    | pick up the green cube .
+
+23105   0.441s  n=1  p=0  ok    | pick up the blue cube and place it on top of the green cube .
+
+23110  13.146s  n=3  p=6  amok  | pick up the pink pyramid and place it on the top of the gray tower of cubes standing in the bottom right corner .
+ = sequence:[event:[action:take,entity:[id:1,color:magenta,type:prism]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:gray,type:stack,spatial-relation:[relation:within,entity:[indicator:back,indicator:right,type:corner]]]]]]]
+ ---
+   @ of/[]:3 cubes/[]:3
+ - sequence:[event:[action:take,entity:[id:1,color:magenta,type:prism]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:gray,type:cube-group,spatial-relation:[relation:within,entity:[indicator:back,indicator:right,type:corner]]]]]]]
+   + [cube-group/stack]
+   @ tower/[]:3 of/[]:3
+ - sequence:[event:[action:take,entity:[id:1,color:magenta,type:prism]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:gray,cardinal:1,type:cube-group,spatial-relation:[relation:within,entity:[indicator:back,indicator:right,type:corner]]]]]]]
+   + [cardinal/type,1/stack,type/spatial-relation,cube-group/ .,/ (relation:within),/[entity:[indicator:back,indicator:right,type:corner]],. / [], (spatial-relation:[relation:within,entity:[indicator:back,indicator:right,type:corner]])/,[]/]
+   @ tower/[]:3 of/one:3
+
+23119   0.492s  n=1  p=0  ok    | pick up the red cube nearest to the top edge and place it on top of the cyan cube nearest to the bottom edge .
+
+23126   0.458s  n=1  p=0  ok    | place the light blue prism on top of the green cube .
+
+23129   0.539s  n=1  p=3  ok    | move the yellow prism that is sitting on the red block on to the green tower .
+   @ sitting/[]:3
+
+23140   0.449s  n=1  p=0  ok    | pick up the yellow pyramid and place it on top of the tower nearest to the top right corner .
+
+23143   0.476s  n=1  p=0  ok    | pick up the pink pyramid and place it on top of the blue cube nearest to the left edge of the board .
+
+23146   0.423s  n=1  p=0  ok    | pick up the green pyramid nearest to the bottom right corner .
+
+23149   0.458s  n=1  p=0  ok    | pick up the gray cube standing in the top right corner and place it on top of the other gray cube .
+
+23152   0.460s  n=1  p=0  ok    | pick up the gray pyramid nearest to the top right corner and place it on top of the green cube .
+
+23167   0.435s  n=1  p=0  ok    | pick up the red pyramid and place it on top of the green cube .
+
+23173   0.456s  n=1  p=0  ok    | drop the blue cube .
+
+23174   0.440s  n=1  p=0  ok    | move the red prism 2 steps back .
+
+23179   0.451s  n=1  p=0  ok    | pick up the pink pyramid and place it on top of the turquoise cubes .
+
+23188   0.450s  n=1  p=0  ok    | pick up the blue cube nearest to the bottom left corner .
+
+23194   0.448s  n=1  p=0  ok    | pick up the turquoise pyramid and place it on top of the red cube standing in the top left corner .
+
+23195   0.469s  n=1  p=0  ok    | move the red prism one step back .
+
+23200   0.461s  n=1  p=0  ok    | pick up the red prism and place it on top of the blue cube .
+
+23202   0.454s  n=1  p=0  ok    | pick up the gray cube and place it on top of the green cube .
+
+23206   0.448s  n=1  p=0  ok    | move the yellow cube on top of the blue cube standing on the yellow cubes .
+
+23207   0.441s  n=1  p=0  ok    | pick up the pink pyramid standing on top of the yellow cube and place it on top of the gray cube nearest to the bottom edge of the board .
+
+23212   0.466s  n=1  p=0  ok    | pick up the red pyramid nearest to the left edge and place it on top of the green cubes standing in the top left corner .
+
+23217   0.473s  n=1  p=0  ok    | move the red block sitting on the grey block , on top of the yellow block .
+
+23223   0.475s  n=1  p=0  ok    | pick up the green cube standing on top of a yellow cube and place it on top of the red cube .
+
+23239   0.443s  n=1  p=0  ok    | pick up the pink pyramid nearest to the right edge and place it on top of the yellow cube .
+
+23242   0.441s  n=1  p=0  ok    | pick up the cyan pyramid and place it on top of the yellow cube .
+
+23245   0.481s  n=1  p=0  ok    | pick up the red cube standing on a grey cube and place it on top of the yellow one .
+
+23248   0.447s  n=1  p=0  ok    | drop the yellow pyramid .
+
+23251   0.540s  n=1  p=2  ok    | pick up the yellow pyramid standing on top of the green - red tower and place it on top of the small green - blue tower .
+   @ small/[]:2
+
+23254   0.448s  n=1  p=0  ok    | pick up the red pyramid nearest to the bottom left corner of the board .
+
+23260   0.444s  n=1  p=0  ok    | drop the blue pyramid .
+
+23263   9.972s  n=0  p=8  fail  | move the yellow cube one cell up .
+ = event:[action:move,entity:[color:yellow,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:forward]]]
+
+23266   0.458s  n=1  p=0  ok    | pick up the pink pyramid and place it on top of the green - blue tower .
+
+23269   0.440s  n=1  p=0  ok    | drop the cyan pyramid .
+
+23272   0.448s  n=1  p=0  ok    | drop the red pyramid .
+
+23281   0.492s  n=1  p=0  ok    | pick up the red cube standing on a gray cube and place it on top of the green cube .
+
+23290   0.536s  n=1  p=0  ok    | pick up the pink pyramid nearest to the right edge and place it on top of the cyan cube .
+
+23296   0.462s  n=1  p=0  ok    | pick up the pink pyramid nearest to the right edge and place it on top of the yellow cube .
+
+23299   0.455s  n=1  p=0  ok    | pick up the green cube and place it on the red cube nearest to the center of the board .
+
+23302   0.444s  n=1  p=0  ok    | pick up the gray cube nearest to the top edge and place it on top of the tower standing in the bottom right corner .
+
+23305   0.449s  n=1  p=0  ok    | drop the green cube .
+
+23308   0.517s  n=1  p=0  ok    | pick up the blue cube standing in the top right corner and place it on top of the tower standing in bottom right corner .
+
+23311   0.562s  n=1  p=2  ok    | pick up the pink pyramid and place it on top the cyan cubes .
+   @ top/to:2
+
+23317   0.516s  n=1  p=0  ok    | pick up the white cube standing over the cyan cubes and place it on the single red cube nearest to the left edge .
+
+23329   0.474s  n=1  p=0  ok    | move the pink pyramid on top of the blue cube nearest to the left edge of the board .
+
+23335  12.667s  n=1  p=8  miss  | move the red cube one cell forward .
+ = event:[action:move,entity:[color:red,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:forward]]]
+ - event:[action:move,entity:[color:red,type:cube],destination:[spatial-relation:[relation:above,entity:[type:cube]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / forward, (type:cube)/,[]/]
+   @ one/on:2 cell/cube:3 forward/[]:3
+
+23338   0.688s  n=1  p=0  ok    | pick up the blue cube nearest to the bottom left corner and place it on top of the blue cube nearest to the top left corner .
+
+23344   0.491s  n=1  p=0  ok    | drop the yellow cube .
+
+23392   0.492s  n=1  p=0  ok    | move the green triangle on top of the yellow square .
+
+23407   0.578s  n=1  p=3  ok    | pick up the blue cube that is sitting on a green cube , then place it on the blue cube that is next to a green cube .
+   @ sitting/[]:3
+
+23416   0.564s  n=1  p=3  ok    | move the red cube that is sitting on the green cube , on top of the white cube .
+   @ sitting/[]:3
+
+23419   0.452s  n=1  p=0  ok    | move the sky blue prism on top of the yellow cube .
+
+23428   0.454s  n=1  p=0  ok    | pick up the yellow prism , standing on the green cube .
+
+23448   2.469s  n=1  p=8  ok    | take the pink piece and put it on the blue block to the left of the grey piece .
+   @ piece/prism:4 piece/prism:4
+
+23494   0.530s  n=1  p=0  ok    | move yellow pyramid to the red block
+
+23501   0.491s  n=1  p=0  ok    | drop the green cube .
+
+23504   0.494s  n=1  p=0  ok    | drop the pink pyramid .
+
+23510   0.518s  n=1  p=0  ok    | drop the blue pyramid on top of the green cube .
+
+23519   0.520s  n=1  p=0  ok    | pick up the yellow cube .
+
+23522   0.486s  n=1  p=0  ok    | pick up the blue cube .
+
+23525   0.486s  n=1  p=0  ok    | pick up the pink pyramid .
+
+23534   0.484s  n=1  p=0  ok    | pick up the pink pyramid .
+
+23540   0.527s  n=1  p=0  ok    | drop the gray cube .
+
+23543   0.538s  n=1  p=0  ok    | pick up the cyan pyramid nearest to the right edge and place it on the blue cube nearest to the bottom left corner of the board .
+
+23546   0.487s  n=1  p=0  ok    | pick up the cyan pyramid nearest to the right edge and place it on top of the green cube .
+
+23547   0.442s  n=1  p=0  ok    | move the cyan pyramid to the yellow block .
+
+23562   0.634s  n=1  p=0  ok    | move the blue pyramid on top of the blue cube .
+
+23565   0.615s  n=1  p=0  ok    | pick up the blue cube nearest to the right edge and place it on top of the red cube .
+
+23571   0.465s  n=1  p=0  ok    | pick up the yellow pyramid standing on top of a red cube .
+
+23574   0.452s  n=1  p=0  ok    | pick up the white cube and place it over the gray one .
+
+23577   0.461s  n=1  p=0  ok    | take the green pyramid and put it in the top left corner
+
+23580   0.463s  n=1  p=0  ok    | take blue block and put it on the red block
+
+23593   0.581s  n=1  p=0  ok    | take yellow pyramid from red and green tower and put on yellow and green tower
+
+23596   0.569s  n=1  p=0  ok    | take red pyramid from yellow cube and put on top right corner
+
+23602   0.492s  n=1  p=0  ok    | move magenta prism and put on cyan tower
+
+23612   0.475s  n=1  p=0  ok    | take white block from grey block and put on white tower
+
+23615   0.570s  n=1  p=2  ok    | take green block from yellow block and put on the blue block immediately to left of blue - yellow tower
+   @ immediately/[]:2
+
+23621   0.484s  n=1  p=0  ok    | take green pyramid near blue block and put it on the blue block
+
+23630   0.477s  n=1  p=0  ok    | move blue block from red block and put on other red block
+
+23641   0.488s  n=1  p=0  ok    | place the blue cube on top of the green cube .
+
+23644   0.484s  n=1  p=0  ok    | pick up the blue block .
+
+23662   0.463s  n=1  p=0  ok    | place the pyramid on the red cube .
+
+23684   0.490s  n=1  p=0  ok    | move blue block from green block and put on blue block
+
+23687   0.059s  n=0  p=8  fail  | . . move red block from tower 3 places left
+ = event:[action:move,entity:[color:red,type:cube,spatial-relation:[relation:above,entity:[type:stack]]],destination:[spatial-relation:[measure:[entity:[cardinal:3,type:tile]],relation:left]]]
+
+23693   0.489s  n=2  p=6  amok  | . . put pyramid to right of grey pyramid
+ = event:[action:drop,entity:[type:prism],destination:[spatial-relation:[relation:right,entity:[color:gray,type:prism]]]]
+ ---
+   @ . / []:3 . / []:3
+ - event:[action:drop,entity:[type:prism,spatial-relation:[relation:right,entity:[color:gray,type:prism]]]]
+   + [. / [], (spatial-relation:[relation:right,entity:[color:gray,type:prism]])/,[]/,[]/ .,/ (destination:[spatial-relation:[relation:right,entity:[color:gray,type:prism]]]),/[]]
+   @ . / []:3 . / []:3
+
+23699   0.561s  n=1  p=0  ok    | pick up the blue block on the right .
+
+23717   0.609s  n=1  p=0  ok    | place the red pyramid on the yellow cube .
+
+23738   0.440s  n=1  p=6  ok    | . . put down the pyramid
+   @ . / []:3 . / []:3
+
+23741   0.458s  n=1  p=6  ok    | . . move green pyramid onto green block next to red block
+   @ . / []:3 . / []:3
+
+23756   0.438s  n=1  p=6  ok    | . . move pyramid onto green tower
+   @ . / []:3 . / []:3
+
+23762   0.582s  n=1  p=6  ok    | . . move pyramid nearest the top into the top left corner
+   @ . / []:3 . / []:3
+
+23769   0.562s  n=1  p=0  ok    | place the grey block on the blue one .
+
+23772   0.484s  n=1  p=0  ok    | pick up the red block .
+
+23778   0.482s  n=1  p=0  ok    | place the pyramid on the green tower .
+
+23781   0.483s  n=1  p=0  ok    | place the pink pyramid to the left of the grey one .
+
+23822   0.464s  n=1  p=0  ok    | place the blue block on top of the white block .
+
+23825   0.474s  n=1  p=6  ok    | . . move green block one square left
+   @ . / []:3 . / []:3
+
+23831   6.443s  n=2  p=7  amok  | move the red pyramid one place to the left .
+ = event:[action:move,entity:[color:red,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:left]]]
+ ---
+   @ place/[]:3 to/tile:4
+ - event:[action:move,entity:[color:red,type:prism],destination:[spatial-relation:[relation:above,entity:[type:prism,spatial-relation:[relation:within,entity:[indicator:left,type:region]]]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / left, (type:prism)/,[spatial-relation:[relation:within,entity:[indicator:left,type:region]]]/]
+   @ one/on:2 place/prism:5
+
+23834   0.473s  n=1  p=0  ok    | move the pink pyramid from the grey block to the yellow block .
+
+23848   0.488s  n=1  p=0  ok    | pick up the grey pyramid .
+
+23852   0.519s  n=1  p=0  ok    | pick up the green block .
+
+23855   0.650s  n=1  p=0  ok    | place the pyramid on the block .
+
+23858   0.673s  n=1  p=0  ok    | place the blue cube on the red cube .
+
+23861   0.548s  n=1  p=0  ok    | put the red block on the back left corner .
+
+23865   0.575s  n=1  p=0  ok    | place the block down .
+
+23876   0.491s  n=1  p=0  ok    | pick up the red pyramid .
+
+23879   0.516s  n=1  p=0  ok    | place the blue pyramid on the red cube on the right .
+
+23888   0.459s  n=1  p=6  ok    | . . move white block from blue tower and put on grey - white tower
+   @ . / []:3 . / []:3
+
+23898   0.618s  n=1  p=6  ok    | . . put pyramid onto green tower
+   @ . / []:3 . / []:3
+
+23909   0.491s  n=1  p=0  ok    | place the pyramid on the blue block .
+
+23912   0.472s  n=1  p=0  ok    | put the grey block on the top left corner .
+
+23923   0.768s  n=1  p=3  ok    | place the red block on the left - most green block .
+   @ (-)/[]:3
+
+23928   0.490s  n=1  p=6  ok    | . . move pyramid beside blue block onto blue block
+   @ . / []:3 . / []:3
+
+23946   0.439s  n=1  p=0  ok    | move pyramid to single green block
+
+23949   0.469s  n=1  p=6  ok    | . . lift red block
+   @ . / []:3 . / []:3
+
+23955   0.462s  n=1  p=6  ok    | . . move pyramid onto red block
+   @ . / []:3 . / []:3
+
+23958   0.442s  n=1  p=6  ok    | . . put grey cube onto green cube
+   @ . / []:3 . / []:3
+
+23970   0.646s  n=1  p=6  ok    | . . put green cube on red cube
+   @ . / []:3 . / []:3
+
+23979   0.712s  n=1  p=6  ok    | . . move blue prism onto single grey block on left edge
+   @ . / []:3 . / []:3
+
+23982   0.560s  n=1  p=6  ok    | . . drop the block
+   @ . / []:3 . / []:3
+
+23985   0.426s  n=1  p=6  ok    | . . move the pyramid onto the red block
+   @ . / []:3 . / []:3
+
+23988   0.474s  n=1  p=6  ok    | . . move blue block from yellow block and put on blue block
+   @ . / []:3 . / []:3
+
+23991   0.442s  n=1  p=6  ok    | . . pick up block nearest centre of the board
+   @ . / []:3 . / []:3
+
+24009   0.474s  n=1  p=0  ok    | place the pyramid closest to the top on the top left corner .
+
+24012   0.493s  n=1  p=0  ok    | place the grey cube on the top left corner .
+
+24027   0.486s  n=1  p=2  ok    | place the cyan pryamid on the yellow cube .
+   @ pryamid/pyramid:2
+
+24039   0.463s  n=1  p=0  ok    | place the green block on the blue block .
+
+24042   0.458s  n=1  p=0  ok    | put the left pink pyramid on the blue block .
+
+24045   0.439s  n=1  p=0  ok    | put the red cube on the grey cube .
+
+24057   0.450s  n=1  p=6  ok    | . . pick up green block . put it on blue block
+   @ . / []:3 . / []:3
+
+24060   0.440s  n=1  p=6  ok    | . . pick up red block . put it on grey block
+   @ . / []:3 . / []:3
+
+24077   0.437s  n=1  p=6  ok    | . . pick up prism . put it on green block nearest to the left
+   @ . / []:3 . / []:3
+
+24107   0.431s  n=1  p=6  ok    | . . pick up magenta pyramid from the grey block . put it on the yellow block .
+   @ . / []:3 . / []:3
+
+24119   0.448s  n=1  p=0  ok    | place the red pyramid to the right of the blue pyramid .
+
+24122   0.449s  n=1  p=0  ok    | place the red brick on the pink brick .
+
+24131   0.491s  n=1  p=0  ok    | place the pyramid on the red tower to the right of the green block .
+
+24139   0.444s  n=1  p=6  ok    | . . pick up blue block . put it in back left corner
+   @ . / []:3 . / []:3
+
+24152   0.454s  n=1  p=0  ok    | shift the pyramid from the grey block to the green block .
+
+24165   0.451s  n=1  p=0  ok    | place the block down .
+
+24170   0.459s  n=1  p=6  ok    | . . drop the pyramid . . .
+   @ . / []:3 . / []:3
+
+24183   1.123s  n=1  p=3  ok    | place the green block on the red block ,
+   @ (,)/[]:3
+
+24205   0.464s  n=1  p=0  ok    | place the grey cube on the white cube .
+
+24209   0.452s  n=1  p=0  ok    | place the grey block on the blue block .
+
+24217   0.453s  n=1  p=0  ok    | drop the cube .
+
+24221   0.471s  n=1  p=0  ok    | place the red block on the grey block .
+
+24248   0.454s  n=1  p=0  ok    | drop the cube .
+
+24257   0.484s  n=1  p=0  ok    | place the red block on the top left corner .
+
+24271   0.460s  n=1  p=6  ok    | . . pick up red block . put it in top left corner
+   @ . / []:3 . / []:3
+
+24274   0.446s  n=1  p=6  ok    | . . pick up yellow pyramid . put it on blue tower
+   @ . / []:3 . / []:3
+
+24289   0.430s  n=1  p=6  ok    | . . pick up yellow block . put it on yellow - blue tower
+   @ . / []:3 . / []:3
+
+24298   0.452s  n=1  p=6  ok    | . . pick up grey block . put it on single blue block
+   @ . / []:3 . / []:3
+
+24301   0.442s  n=1  p=6  ok    | . . pick up yellow pyramid from red block . put it on magenta tower
+   @ . / []:3 . / []:3
+
+24310   0.445s  n=1  p=6  ok    | . . pick up red pyramid . put it on cyan block .
+   @ . / []:3 . / []:3
+
+24313   0.557s  n=1  p=6  ok    | . . pick up green block . put it on the blue block
+   @ . / []:3 . / []:3
+
+24316   0.675s  n=1  p=8  ok    | . . pick up blue pyramid . put it immediately to left of red pyramid
+   @ . / []:3 . / []:3 immediately/[]:2
+
+24322   0.564s  n=1  p=6  ok    | . . pick up one green block . put it on red block
+   @ . / []:3 . / []:3
+
+24325   0.448s  n=1  p=6  ok    | . . pick up red prism from right edge . put it on blue - grey tower
+   @ . / []:3 . / []:3
+
+24334   0.449s  n=1  p=6  ok    | . . pick up cyan pyramid . put it on red cube
+   @ . / []:3 . / []:3
+
+24352   0.448s  n=1  p=6  ok    | . . move green pyramid two squares back
+   @ . / []:3 . / []:3
+
+24361   0.001s  n=0  p=8  fail  | . . . pick up blue block . put it on red - blue tower on left edge
+ = sequence:[event:[action:take,entity:[id:1,color:blue,type:cube]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:red,color:blue,type:stack,spatial-relation:[relation:above,entity:[indicator:left,type:edge]]]]]]]
+
+24364   0.449s  n=1  p=6  ok    | . . pick up grey block . put it on blue block
+   @ . / []:3 . / []:3
+
+24381   0.460s  n=1  p=0  ok    | pick up the green cube and place it on top of the tower standing in the top left corner of the board .
+
+24384   0.460s  n=1  p=0  ok    | pick up the yellow cube and place it on top of the blue cube nearest to the top left corner .
+
+24390   0.440s  n=1  p=0  ok    | pick up the blue cube nearest to the right edge .
+
+24393   0.447s  n=1  p=0  ok    | pick up the red cube and place it on top of the grey one .
+
+24396   0.442s  n=1  p=0  ok    | drop the blue cube .
+
+24402   2.081s  n=1  p=4  miss  | pick up the blue cube and place it one cell right of the green cube .
+ = sequence:[event:[action:take,entity:[id:1,color:blue,type:cube]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:right,entity:[color:green,type:cube]]]]]
+ - sequence:[event:[action:take,entity:[id:1,color:blue,type:cube]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:right,entity:[color:green,type:cube]]]]]
+   + [relation/measure,right/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / right, (color:green)/,[type:cube]/,[]/ .,/ (entity:[color:green,type:cube]),/[]]
+   @ one/on:2 cell/[]:2
+
+24408   7.919s  n=1  p=8  miss  | move the yellow cube two cells forward .
+ = event:[action:move,entity:[color:yellow,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:2,type:tile]],relation:forward]]]
+ - event:[action:move,entity:[color:yellow,type:cube],destination:[spatial-relation:[relation:above,entity:[type:cube-group]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:2,type:tile]),/[],entity/relation,. / forward, (type:cube-group)/,[]/]
+   @ two/to:2 cells/cubes:3 forward/[]:3
+
+24417   0.449s  n=1  p=0  ok    | pick up the pink pyramid and place it in the bottom left corner of the board .
+
+24420   0.453s  n=1  p=0  ok    | pick up the yellow cube and place it in the top left corner .
+
+24423   0.454s  n=1  p=0  ok    | pick up the gray cube and place it on top of the green one .
+
+24426   0.431s  n=1  p=0  ok    | drop the gray cube .
+
+24432   0.456s  n=1  p=0  ok    | pick up the cyan pyramid standing in the bottom right corner and place it on top of the red cube .
+
+24438   0.435s  n=1  p=0  ok    | pick up the red pyramid and place it on top of the red cube .
+
+24444   0.446s  n=1  p=0  ok    | pick up the gray cube and place on top of the tower nearest to the left edge .
+
+24447   0.443s  n=1  p=0  ok    | drop the yellow pyramid .
+
+24450   0.450s  n=1  p=0  ok    | pick up the cyan pyramid nearest to the right edge .
+
+24453   0.456s  n=1  p=0  ok    | move the blue cube nearest to the center on top of the other blue cube .
+
+24456  19.708s  n=0  p=8  fail  | move the green cube one cell back .
+ = event:[action:move,entity:[color:green,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:backward]]]
+
+24459   0.460s  n=1  p=0  ok    | pick up the red cube and place it on top of the pink one .
+
+24462  13.293s  n=0  p=8  fail  | move the cyan pyramid one cell backwards .
+ = event:[action:move,entity:[color:cyan,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:backward]]]
+
+24477   0.437s  n=1  p=0  ok    | drop the blue pyramid .
+
+24480   0.429s  n=1  p=0  ok    | pick up the yellow cube and place it on top of the green ones .
+
+24486   0.430s  n=1  p=0  ok    | pick up the yellow pyramid and place it on top of the yellow cube .
+
+24501   0.439s  n=1  p=0  ok    | pick up the green cube nearest to the top right corner and place on top of the tower nearest to the top left corner .
+
+24504   0.596s  n=1  p=0  ok    | move the blue cube on top of the red one .
+
+24507   0.506s  n=1  p=0  ok    | pick up the blue pyramid .
+
+24510   0.551s  n=1  p=0  ok    | pick up the yellow pyramid nearest to the top left corner .
+
+24513   0.454s  n=1  p=0  ok    | pick up the pyramid nearest to the top right corner and place it on top of the yellow cube .
+
+24519   0.471s  n=1  p=0  ok    | move the cyan pyramid in the top right corner of the board .
+
+24522   0.519s  n=1  p=0  ok    | pick up the green cube nearest to the bottom edge .
+
+24531   0.460s  n=1  p=0  ok    | pick up the blue cube standing in the top left corner and place over the red cube nearest to the top edge .
+
+24537   0.471s  n=1  p=0  ok    | move the red cube on top of the blue one .
+
+24549  24.829s  n=0  p=8  fail  | pick up the green pyramid nearest to the right edge and move it one cell back .
+ = sequence:[event:[action:take,entity:[id:1,color:green,type:prism,spatial-relation:[relation:nearest,entity:[indicator:right,type:edge]]]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:backward]]]]
+
+24561   0.444s  n=1  p=0  ok    | move the yellow cube in the bottom left corner of the board .
+
+24564   0.441s  n=1  p=0  ok    | pick up the green cube nearest to the top right corner and place it in the bottom right corner .
+
+24567   0.435s  n=1  p=0  ok    | pick up the red cube nearest to the bottom edge and place it on top of the green cube .
+
+24573   0.449s  n=1  p=0  ok    | pick up the gray cube nearest to the top right corner and place it in the bottom left corner .
+
+24576   0.446s  n=1  p=0  ok    | drop the red cube on top of the yellow one .
+
+24594   0.458s  n=1  p=0  ok    | pick up the red cube nearest to the right edge and place on top of the white cube nearest to the center of the board .
+
+24603   0.449s  n=1  p=0  ok    | pick up the red pyramid and place it on top of the cyan cube .
+
+24609   0.454s  n=1  p=0  ok    | drop the gray cube .
+
+24612   0.463s  n=1  p=0  ok    | put the yellow cube on top of the red one .
+
+24630   0.431s  n=1  p=0  ok    | move the cyan pyramid on top of the cyan cube .
+
+24645  10.312s  n=1  p=8  miss  | move the red pyramid one cell forward .
+ = event:[action:move,entity:[color:red,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:forward]]]
+ - event:[action:move,entity:[color:red,type:prism],destination:[spatial-relation:[relation:above,entity:[type:cube]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / forward, (type:cube)/,[]/]
+   @ one/on:2 cell/cube:3 forward/[]:3
+
+24648   0.452s  n=1  p=0  ok    | pick up the red cube nearest to the top edge and place it on the cyan cube nearest to the bottom edge .
+
+24655   0.440s  n=1  p=0  ok    | move the white cube nearest to the right edge and place it in the bottom left corner .
+
+24659   0.472s  n=1  p=0  ok    | move the red pyramid on top of the blue cube nearest to the bottom left corner .
+
+24675   0.434s  n=1  p=0  ok    | drop the yellow cube .
+
+24678   0.474s  n=1  p=0  ok    | move the red cube nearest to the top right corner in the top right corner .
+
+24689   5.302s  n=2  p=5  miss  | pick up the white cube nearest to the top edge and place it one cell to the right of the bottom left corner .
+ = sequence:[event:[action:take,entity:[id:1,color:white,type:cube,spatial-relation:[relation:nearest,entity:[indicator:front,type:edge]]]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:right,entity:[indicator:back,indicator:left,type:corner]]]]]
+ - sequence:[event:[action:take,entity:[id:1,color:white,type:cube,spatial-relation:[relation:nearest,entity:[indicator:front,type:edge]]]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:right,entity:[indicator:back,indicator:left,type:corner]]]]]
+   + [relation/measure,right/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / right, (indicator:back)/,[indicator:left,type:corner]/,[]/ .,/ (entity:[indicator:back,indicator:left,type:corner]),/[]]
+   @ one/[]:3 cell/[]:2
+ - sequence:[event:[action:take,entity:[id:1,color:white,type:cube,spatial-relation:[relation:nearest,entity:[indicator:front,type:edge]]]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[type:cube,spatial-relation:[relation:right,entity:[indicator:back,indicator:left,type:corner]]]]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / right, (type:cube)/,[spatial-relation:[relation:right,entity:[indicator:back,indicator:left,type:corner]]]/,[]/ .,/ (entity:[indicator:back,indicator:left,type:corner]),/[]]
+   @ one/on:2 cell/cube:3
+
+24698   0.471s  n=1  p=0  ok    | pick up the white cube and place it over the gray one .
+
+24704   0.449s  n=1  p=0  ok    | pick up the blue cube standing on a yellow tower and place it on top of the cyan cube nearest to the top edge .
+
+24710   0.435s  n=1  p=0  ok    | drop the blue cube .
+
+24713   0.499s  n=1  p=0  ok    | move the blue cube on top of the yellow one .
+
+24716   5.907s  n=1  p=6  ok    | move the red pyramid one cell to the left .
+   @ cell/[]:2 to/tile:4
+
+24722   0.428s  n=1  p=0  ok    | pick up the gray cube and place it in the top right corner .
+
+24725   0.444s  n=1  p=0  ok    | drop the cube .
+
+24734   0.439s  n=1  p=0  ok    | drop the cube .
+
+24737   0.496s  n=1  p=0  ok    | move the blue pyramid on top of the green cube nearest to the right edge .
+
+24740   0.438s  n=1  p=0  ok    | pick up the green cube .
+
+24746   0.455s  n=1  p=0  ok    | pick up the yellow cube and place it over the green ones .
+
+24749   0.455s  n=1  p=0  ok    | pick up the green cube nearest to the bottom edge and place it on the yellow cube nearest to the bottom right corner .
+
+24755   3.402s  n=1  p=6  ok    | move the green pyramid three cells to the left .
+   @ cells/[]:2 to/tile:4
+
+24764   0.505s  n=1  p=0  ok    | pick up the red cube and place it in the top right corner .
+
+24767   0.449s  n=1  p=0  ok    | pick up the red pyramid nearest to the top left corner .
+
+24773   0.477s  n=1  p=0  ok    | pick up the blue cube and place it over the white one .
+
+24788   0.523s  n=1  p=0  ok    | drop the green cube .
+
+24791   0.442s  n=1  p=0  ok    | move the red pyramid on top of the single green cube .
+
+24794   0.443s  n=1  p=0  ok    | pick up the green pyramid .
+
+24801   0.497s  n=1  p=0  ok    | move the blue cube nearest to the bottom left corner on top of the other blue cube .
+
+24804   0.458s  n=1  p=0  ok    | move the gray pyramid on top of the gray cube .
+
+24811   8.101s  n=0  p=8  fail  | move the blue pyramid two cells up .
+ = event:[action:move,entity:[color:blue,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:2,type:tile]],relation:forward]]]
+
+24817   0.453s  n=1  p=0  ok    | pick up the blue cube nearest to the left .
+
+24826   0.497s  n=1  p=0  ok    | move the blue cube on top of the green one .
+
+24829   0.544s  n=1  p=0  ok    | move the green cube nearest to the top left corner on top of the blue cube nearest to the left edge .
+
+24835   0.423s  n=1  p=0  ok    | drop the gray cube .
+
+24853   0.447s  n=1  p=0  ok    | move the blue cube on top of the yellow one .
+
+24869   0.493s  n=1  p=0  ok    | pick up the gray cube nearest to the left edge .
+
+24872   0.515s  n=1  p=0  ok    | move the blue pyramid on top of the red cubes .
+
+24875   0.517s  n=1  p=0  ok    | pick up the pink pyramid .
+
+24878   0.488s  n=1  p=0  ok    | pick up the red cube nearest to the top edge and place it on top of the other red cube .
+
+24881   7.818s  n=0  p=8  fail  | move the yellow pyramid three cells back .
+ = event:[action:move,entity:[color:yellow,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:3,type:tile]],relation:backward]]]
+
+24884   0.440s  n=1  p=0  ok    | move the red cube on top of the green cube .
+
+24893   0.454s  n=1  p=0  ok    | move the yellow cube on top of the red one .
+
+24896   0.454s  n=1  p=0  ok    | pick up the yellow cube nearest to the center of the board and place it on top of the other yellow cube .
+
+24905   0.437s  n=1  p=0  ok    | drop the pink pyramid .
+
+24911   0.443s  n=1  p=0  ok    | pick up the pink pyramid and place it on top of the grey cube nearest to the bottom edge .
+
+24917   0.444s  n=1  p=0  ok    | pick up the yellow pyramid standing on top of the gray cube and place it over the cyan cubes .
+
+24929   0.490s  n=1  p=0  ok    | pick up the yellow pyramid and place it over the blue cube nearest to the left margin .
+
+24933   0.534s  n=1  p=0  ok    | drop the gray cube .
+
+24936   0.490s  n=1  p=0  ok    | drop the green cube .
+
+24946   0.464s  n=1  p=0  ok    | pick up the pink pyramid standing on a yellow cube and place it over the red cube .
+
+24953   0.474s  n=1  p=0  ok    | pick up the pink pyramid and place it on top of the yellow cube .
+
+24958   0.535s  n=1  p=0  ok    | pick up the blue cube and place it over the yellow one .
+
+24963   0.452s  n=1  p=0  ok    | pick up the yellow cube nearest to the top edge .
+
+24970   0.472s  n=1  p=0  ok    | move the green prism to the top left corner .
+
+24973   0.442s  n=1  p=0  ok    | pick up the red cube nearest to the right edge .
+
+24974   0.466s  n=1  p=0  ok    | pick up the blue block and move it on top of the yellow block .
+
+24984   0.565s  n=1  p=2  ok    | pick up the blue cube nearest to the left margin and place it on the red cube nearest to the same margin .
+   @ same/[]:2
+
+24987   0.445s  n=1  p=0  ok    | drop the green pyramid .
+
+24994   0.499s  n=1  p=0  ok    | move the red cube in the top left corner .
+
+25000   0.435s  n=1  p=0  ok    | move the yellow pyramid on top of the blue cube .
+
+25003   0.471s  n=1  p=0  ok    | pick up the white cube , then place it onto the sky blue cube that is on the left of the yellow prism .
+
+25008   6.609s  n=0  p=8  fail  | move the green prism four cells up .
+ = event:[action:move,entity:[color:green,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:4,type:tile]],relation:forward]]]
+
+25012   0.444s  n=1  p=0  ok    | drop the blue pyramid .
+
+25013   0.445s  n=1  p=0  ok    | move the purple prism on top of the blue - green tower .
+
+25016   0.552s  n=1  p=3  ok    | pick up the white block that is sitting on the red block , then place it on the blue tower .
+   @ sitting/[]:3
+
+25019   0.453s  n=1  p=0  ok    | pick up the yellow prism .
+
+25022   0.640s  n=1  p=3  ok    | move the red cube that's standing on the blue cube , on top of the blue cube standing on the red cube .
+   @ that's/[]:3
+
+25025   0.578s  n=1  p=0  ok    | pick up the blue prism nearest to the top right corner .
+
+25046   0.560s  n=1  p=0  ok    | move the red cube 2 steps right .
+
+25049   0.732s  n=1  p=3  ok    | pick up the blue cube that is standing on the yellow tower , then place it on top of the sky blue cube , which is closest to the top right corner
+   @ standing/[]:3
+
+25052   0.611s  n=1  p=0  ok    | move the sky blue prism 2 steps back .
+
+25058   0.640s  n=1  p=3  ok    | pick up the red prism which is standing on the green - yellow tower .
+   @ standing/[]:3
+
+25064   0.486s  n=1  p=0  miss  | pick up the yellow prism and place it on top of the blue block closest to the left .
+ = sequence:[event:[action:take,entity:[id:1,color:yellow,type:prism]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:blue,type:cube,spatial-relation:[relation:nearest,entity:[indicator:left,type:edge]]]]]]]
+ - sequence:[event:[action:take,entity:[id:1,color:yellow,type:prism]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:blue,type:cube,spatial-relation:[relation:nearest,entity:[indicator:left,type:region]]]]]]]
+   + [region/edge]
+
+25076 116.558s  n=0  p=8  fail  | pick up the red block sitting on top of the blue block , then place it on top of the other blue block .
+ = sequence:[event:[action:take,entity:[id:1,color:red,type:cube,spatial-relation:[relation:above,entity:[color:cyan,type:cube]]]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:cyan,type:cube]]]]]
+
+25079   0.454s  n=1  p=0  ok    | pick up the red prism .
+
+25082   0.487s  n=1  p=0  ok    | move the red cube sitting on the yellow cube 2 steps right .
+
+25094   0.458s  n=1  p=0  ok    | move the green prism 2 squares up .
+
+25097   0.491s  n=1  p=0  ok    | pick up the blue prism located on the left of the white prism .
+
+25100   0.477s  n=1  p=0  ok    | move the blue cube onto the yellow - red tower .
+
+25103   0.581s  n=1  p=0  ok    | move the yellow triangle to the red brick nearest to the back .
+
+25106   0.511s  n=1  p=0  ok    | move the yellow prism on top of the grey block in the top right corner .
+
+25109   0.468s  n=1  p=0  ok    | move the red prism 2 squares left .
+
+25118   0.495s  n=1  p=0  ok    | pick up the yellow cube and place it on the green cube on the right .
+
+25121   0.457s  n=1  p=0  ok    | take the cyan pyramid and place it on top of the yellow cube in the top left corner .
+
+25127   1.699s  n=1  p=3  miss  | pick up the purple cube placed on the blue cube .
+ = event:[action:take,entity:[color:magenta,type:cube,spatial-relation:[relation:above,entity:[color:cyan,type:cube]]]]
+ - event:[action:take,entity:[color:magenta,type:cube,spatial-relation:[relation:above,entity:[type:cube]]]]
+   + [type/color,cube/cyan,[]/ .,/ (type:cube),/[]]
+   @ blue/[]:3
+
+25130   0.453s  n=1  p=0  ok    | move the green cube 1 step left .
+
+25133   0.447s  n=1  p=0  ok    | pick up the grey prism and place it onto the red cube .
+
+25136   0.465s  n=1  p=0  ok    | move the blue block placed on the green block on top of the other blue block .
+
+25142   0.523s  n=1  p=3  ok    | pick up the blue cube that is sitting on the yellow tower , then place it on top of the red cube .
+   @ sitting/[]:3
+
+25148   0.467s  n=1  p=0  ok    | move the green cube 1 grid back .
+
+25151   0.451s  n=1  p=0  ok    | pick up the pink cube and place it on top of the red cube .
+
+25154   0.457s  n=1  p=0  ok    | move the green cube 1 square left .
+
+25162   0.447s  n=1  p=0  ok    | pick up the green pyramid .
+
+25166   3.856s  n=1  p=5  miss  | move the blue cube one cell to the left .
+ = event:[action:move,entity:[color:blue,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:left]]]
+ - event:[action:move,entity:[color:blue,type:cube],destination:[spatial-relation:[relation:above,entity:[type:cube,spatial-relation:[relation:within,entity:[indicator:left,type:region]]]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / left, (type:cube)/,[spatial-relation:[relation:within,entity:[indicator:left,type:region]]]/]
+   @ one/on:2 cell/cube:3
+
+25171   0.452s  n=1  p=0  ok    | move the green pyramid in the top left corner .
+
+25174   0.446s  n=1  p=0  ok    | move the blue cube on top of the yellow cube .
+
+25175   0.442s  n=1  p=0  ok    | move the green pyramid in the bottom left corner .
+
+25184   0.442s  n=1  p=0  ok    | move the blue cube on top of the cyan one .
+
+25192   0.469s  n=1  p=0  ok    | pick up the blue block which is placed on the yellow block , then place it on top of the red block .
+
+25197   0.465s  n=1  p=0  ok    | move the cyan pyramid in the top left corner .
+
+25201   0.449s  n=1  p=0  ok    | pick up the blue pyramid nearest to the top left corner .
+
+25210   0.478s  n=1  p=0  ok    | pick up the red cube nearest to the top right corner and place it on top of the blue cube nearest to the top left corner .
+
+25214   0.454s  n=1  p=0  ok    | pick up the blue cube standing on the green cube and place it on top of the red cube .
+
+25226   0.446s  n=1  p=0  ok    | pick up the gray cube standing in the bottom right corner and place it on top of the yellow - pink tower .
+
+25230   0.453s  n=1  p=0  ok    | pick up the yellow pyramid and place it on top of the blue cube .
+
+25237   0.448s  n=1  p=0  ok    | pick up the blue cube nearest to the right edge .
+
+25241   0.457s  n=1  p=0  ok    | move the cyan pyramid in the top left corner .
+
+25244   0.444s  n=1  p=0  ok    | drop the green cube .
+
+25247   0.454s  n=1  p=0  ok    | drop the green cube on top of the yellow cube .
+
+25250   0.453s  n=1  p=0  ok    | pick up the green pyramid on the floor and place it on top of the blue cube in the top left corner .
+
+25266   0.438s  n=1  p=0  ok    | pick up the red cube nearest to the right edge .
+
+25270   0.450s  n=1  p=0  ok    | pick up the grey cube and place it on top of the green cube .
+
+25272   0.467s  n=1  p=0  ok    | pick up the pink prism and place it on top of the cyan cube .
+
+25276   0.456s  n=1  p=0  ok    | move the red prism 1 space right .
+
+25279   0.454s  n=1  p=0  ok    | pick up the pink pyramid and place it on top of the yellow cube .
+
+25285   0.448s  n=1  p=0  ok    | pick up the blue cube nearest to the right edge and place it on top of the tower standing in the bottom left corner .
+
+25289   0.459s  n=1  p=0  ok    | move the blue cube on top of the yellow one .
+
+25303   0.452s  n=1  p=0  ok    | move the yellow pyramid closest to the right on top of the red cube .
+
+25306   0.447s  n=1  p=0  ok    | move the red cube on top of the green cube nearest to the left edge .
+
+25309   0.455s  n=1  p=0  ok    | drop the cyan pyramid .
+
+25312   0.469s  n=1  p=0  ok    | pick up the pink cube standing in the top right corner and place it on top of the red cube .
+
+25315   0.450s  n=1  p=0  ok    | pick up the yellow cube and place it on top of the green ones .
+
+25318   0.455s  n=1  p=0  ok    | move the yellow pyramid on top of the yellow cube .
+
+25321   0.455s  n=1  p=0  ok    | move the white cube on top of the gray one .
+
+25324   0.444s  n=1  p=0  ok    | pick up the blue cube nearest to the left edge and place it over the yellow one .
+
+25327   0.479s  n=1  p=0  ok    | move the red prism on top of the white cubes .
+
+25331   0.478s  n=1  p=0  ok    | pick up the blue cube standing on the yellow cube , then place it on top of the red cube .
+
+25344   0.482s  n=1  p=0  ok    | move the yellow cube in the top right corner .
+
+25348   0.494s  n=1  p=0  ok    | pick up the yellow pyramid .
+
+25354   6.901s  n=0  p=8  fail  | move the green pyramid four cells up .
+ = event:[action:move,entity:[color:green,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:4,type:tile]],relation:forward]]]
+
+25357   0.469s  n=1  p=0  ok    | move the yellow cube on top of the red cube nearest to the left edge .
+
+25361   0.531s  n=1  p=0  ok    | move the red cube in the top right corner .
+
+25364   0.445s  n=1  p=0  ok    | move the blue cube on top of the yellow cube .
+
+25367  12.577s  n=0  p=8  fail  | move the green cube one cell up .
+ = event:[action:move,entity:[color:green,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:forward]]]
+
+25372   0.458s  n=1  p=0  ok    | move the blue cube on top of the red one .
+
+25375   0.460s  n=1  p=0  ok    | move the green cube nearest to the top right corner and place it over the green cube nearest to the left edge .
+
+25378   0.476s  n=1  p=0  ok    | pick up the pink prism on the right and move it onto the dark blue cube .
+
+25379   0.436s  n=1  p=0  ok    | drop the blue cube .
+
+25384   0.455s  n=1  p=0  ok    | pick up the green cube nearest to the bottom left corner .
+
+25390   0.451s  n=1  p=0  ok    | pick up the pink pyramid and place it in the bottom right corner .
+
+25399   0.440s  n=1  p=0  ok    | move the green cube on top of the blue cube .
+
+25400   3.641s  n=2  p=4  miss  | drop the green cube one cell left of the red cube nearest to the center of the board .
+ = event:[action:drop,entity:[color:green,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:left,entity:[color:red,type:cube,spatial-relation:[relation:nearest,entity:[indicator:center,type:region]]]]]]
+ - event:[action:drop,entity:[color:green,type:cube],destination:[spatial-relation:[relation:left,entity:[color:red,type:cube,spatial-relation:[relation:nearest,entity:[indicator:center,type:region]]]]]]
+   + [relation/measure,left/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / left, (color:red)/,[type:cube,spatial-relation:[relation:nearest,entity:[indicator:center,type:region]]]/,[]/ .,/ (entity:[color:red,type:cube,spatial-relation:[relation:nearest,entity:[indicator:center,type:region]]]),/[]]
+   @ one/on:2 cell/[]:2
+ - event:[action:drop,entity:[color:green,type:cube,spatial-relation:[relation:left,entity:[color:red,type:cube,spatial-relation:[relation:nearest,entity:[indicator:center,type:region]]]]]]
+   + [. / [], (spatial-relation:[relation:left,entity:[color:red,type:cube,spatial-relation:[relation:nearest,entity:[indicator:center,type:region]]]])/,[]/,[]/ .,/ (destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:left,entity:[color:red,type:cube,spatial-relation:[relation:nearest,entity:[indicator:center,type:region]]]]]),/[]]
+   @ one/on:2 cell/[]:2
+
+25403   0.467s  n=1  p=0  ok    | move the red pyramid nearest to the top right corner and place it on top of the yellow cube .
+
+25406   0.434s  n=1  p=0  ok    | pick up the red cube nearest to the right edge .
+
+25409   0.448s  n=1  p=0  ok    | move the red cube on top of the red - white tower .
+
+25412   0.467s  n=1  p=0  ok    | pick up the pink pyramid nearest to the left edge and place it on top of the blue cube .
+
+25418   0.449s  n=1  p=0  ok    | drop the green cube .
+
+25422   0.442s  n=1  p=0  ok    | move the blue cube on top of the yellow one .
+
+25426   0.446s  n=1  p=0  ok    | drop the red pyramid on top of the green cube .
+
+25429   0.463s  n=1  p=0  ok    | move the yellow prism on top of the yellow cube .
+
+25432   0.438s  n=1  p=0  ok    | move the yellow pyramid 2 steps forward .
+
+25433   0.445s  n=1  p=0  ok    | move the blue cube on top of the red cube nearest to the bottom edge .
+
+25437   8.628s  n=1  p=8  miss  | move the red prism one cell up .
+ = event:[action:move,entity:[color:red,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:forward]]]
+ - event:[action:move,entity:[color:red,type:prism],destination:[spatial-relation:[relation:above,entity:[type:cube]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / forward, (type:cube)/,[]/]
+   @ one/on:2 cell/cube:3 up/[]:3
+
+25444   0.438s  n=1  p=0  ok    | pick up the red cube closest to the top .
+
+25450   0.490s  n=1  p=0  ok    | move the yellow prism closest to the right on to the green - red tower closest to the left .
+
+25459   0.467s  n=1  p=0  ok    | pick up the blue block which is placed on the yellow block , then place it on top of the blue - green tower .
+
+25465   0.468s  n=1  p=0  ok    | pick up the red block on the grey block and place it on the green block .
+
+25468   0.435s  n=1  p=0  ok    | move the cyan prism closest to the left , onto the red block .
+
+25471   0.462s  n=1  p=2  ok    | grab the blue box and gently place it on the green box .
+   @ gently/[]:2
+
+25474   7.732s  n=0  p=8  fail  | move the red cube one place up .
+ = event:[action:move,entity:[color:red,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:forward]]]
+
+25477   1.648s  n=0  p=8  fail  | transfer the yellow cube onto the blue - red tower .
+ = event:[action:move,entity:[color:yellow,type:cube],destination:[spatial-relation:[relation:above,entity:[color:blue,color:red,type:stack]]]]
+
+25480   0.437s  n=1  p=0  ok    | pick up the red cube and place it in the top left corner .
+
+25489   0.530s  n=1  p=2  ok    | grab the yellow pyramid which is sat on the blue cube closest to the back .
+   @ sat/[]:2
+
+25501   0.495s  n=1  p=3  ok    | pick up the blue prism and place directly on top of the red cube .
+   @ directly/[]:3
+
+25514   0.434s  n=1  p=0  ok    | pick up the yellow pyramid standing on top of the red cube .
+
+25520   0.452s  n=1  p=0  ok    | move the yellow pyramid on top of the white cube .
+
+25523   0.435s  n=1  p=0  ok    | pick up the blue cube .
+
+25526   0.472s  n=1  p=0  ok    | move the red cube on top of the green cube nearest to the top left corner .
+
+25529   0.479s  n=1  p=0  ok    | move the pink prism nearest to the right edge on top of the yellow cube .
+
+25541   0.434s  n=1  p=0  ok    | pick up the cyan prism .
+
+25550   0.444s  n=1  p=0  ok    | drop the yellow pyramid .
+
+25553   0.451s  n=1  p=0  ok    | pick up the gray pyramid standing over the red tower and place it over the single red cube .
+
+25556   0.442s  n=1  p=0  ok    | drop the green cube .
+
+25559   0.460s  n=1  p=0  ok    | move the red cube in the bottom left corner .
+
+25562   0.443s  n=1  p=0  ok    | put the green cube on top of the blue one .
+
+25565   0.465s  n=1  p=0  ok    | move the pink pyramid on top of the green - blue tower .
+
+25568   0.455s  n=1  p=0  ok    | pick up the grey cube nearest to the right edge and place it on top of the tower standing in the bottom right corner of the board .
+
+25574   0.438s  n=1  p=0  ok    | pick up the green cube nearest to the top left corner .
+
+25580   0.430s  n=1  p=0  ok    | drop the blue pyramid on top of the red cube .
+
+25583   0.466s  n=1  p=0  ok    | drop the green cube .
+
+25592   7.412s  n=0  p=8  fail  | move the green pyramid two cells up .
+ = event:[action:move,entity:[color:green,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:2,type:tile]],relation:forward]]]
+
+25595   0.452s  n=1  p=0  ok    | pick up the blue pyramid .
+
+25604   0.451s  n=1  p=0  ok    | drop the red cube .
+
+25607   0.470s  n=1  p=0  ok    | move the yellow pyramid on top of the gray cubes .
+
+25610   0.442s  n=1  p=0  ok    | move the yellow pyramid on top of the blue cubes .
+
+25616   0.449s  n=1  p=0  ok    | pick up the white cube and place it in the top left corner .
+
+25619   0.446s  n=1  p=0  ok    | drop the red pyramid .
+
+25622   0.470s  n=1  p=0  ok    | move the white cube standing on the blue tower on top of the gray - white tower .
+
+25625   0.460s  n=1  p=0  ok    | move the red cube on top of the red - white tower .
+
+25628   0.457s  n=1  p=0  ok    | move the red prism on top of the blue cube .
+
+25631   0.461s  n=1  p=0  ok    | drop the yellow cube on top of the single blue cube .
+
+25634   0.472s  n=1  p=0  ok    | move the blue prism on top of the blue cube .
+
+25641   0.733s  n=1  p=0  ok    | move the yellow cube in the top right corner .
+
+25644   0.494s  n=1  p=0  ok    | move the blue cube nearest to the right edge in the top right corner .
+
+25647   0.466s  n=1  p=0  ok    | drop the pink pyramid .
+
+25650   0.448s  n=1  p=0  ok    | move the red cube in the corner on top of the gray one .
+
+25653   0.448s  n=1  p=0  ok    | move the yellow pyramid on top of the red - green tower .
+
+25656   0.466s  n=1  p=0  ok    | pick up the gray pyramid nearest to the bottom and place it on top of the single red cube .
+
+25659   0.486s  n=1  p=0  ok    | move the green cube nearest to the bottom on top of the yellow cube nearest to the bottom right corner .
+
+25663   0.467s  n=1  p=0  ok    | pick up the pink pyramid nearest to the right edge and place it on the yellow cube .
+
+25666   0.458s  n=1  p=0  ok    | pick up the red cube nearest to the right edge .
+
+25669   0.449s  n=1  p=0  ok    | pick up the white cube nearest to the bottom and place it on top of the white tower .
+
+25679   0.480s  n=1  p=0  ok    | move the red cube on top of the gray cube .
+
+25682   0.457s  n=1  p=0  ok    | move the yellow cube on top of the blue - green tower .
+
+25691   0.475s  n=1  p=0  ok    | move the cyan pyramid nearest to the right on top of the grey tower in the corner .
+
+25694   0.469s  n=1  p=0  ok    | pick up the green cube nearest to the right edge .
+
+25702   0.443s  n=1  p=0  ok    | pick up the red cube .
+
+25713   0.469s  n=1  p=0  ok    | move the grey cube located on the left side of the red cube , 1 square up .
+
+25721   0.516s  n=1  p=0  ok    | move the yellow pyramid nearest to the right edge on top of the single gray cube nearest to the right edge .
+
+25724   0.468s  n=1  p=0  ok    | pick up the cyan pyramid .
+
+25732   0.443s  n=1  p=0  ok    | pick up the yellow pyramid standing on top of a red cube .
+
+25735   0.475s  n=1  p=0  ok    | pick up the dark blue cube which is placed on a yellow cube .
+
+25736   0.469s  n=1  p=0  ok    | pick up the yellow pyramid nearest to the top and place it over the tower nearest to the bottom edge .
+
+25745   0.455s  n=1  p=0  ok    | pick up the grey cube nearest to the top right corner and place it on top of the yellow - red - cyan tower .
+
+25749   0.473s  n=1  p=0  ok    | pick up the red pyramid nearest to the top left corner and place it on top of the yellow cube nearest to the right edge .
+
+25757   8.034s  n=1  p=8  miss  | move the blue prism two cells up .
+ = event:[action:move,entity:[color:blue,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:2,type:tile]],relation:forward]]]
+ - event:[action:move,entity:[color:blue,type:prism],destination:[spatial-relation:[relation:above,entity:[type:cube-group]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:2,type:tile]),/[],entity/relation,. / forward, (type:cube-group)/,[]/]
+   @ two/to:2 cells/cubes:3 up/[]:3
+
+25768   0.459s  n=1  p=0  ok    | pick up the blue cube sitting on the floor .
+
+25777   0.441s  n=1  p=0  ok    | move the pink prism on top of the red block .
+
+25783   0.455s  n=1  p=0  ok    | pick up the red prism nearest to the top .
+
+25807   0.447s  n=1  p=6  ok    | . . pick up prism . put it on blue - green tower
+   @ . / []:3 . / []:3
+
+25813   0.443s  n=1  p=6  ok    | . . pick up white block from cyan tower . put it on red block on left edge
+   @ . / []:3 . / []:3
+
+25835   0.500s  n=1  p=6  ok    | . . pick up blue block . put it on grey block
+   @ . / []:3 . / []:3
+
+25841   0.467s  n=1  p=6  ok    | . . pick up blue block from blue - yellow tower . put it on grey block
+   @ . / []:3 . / []:3
+
+25847   0.480s  n=1  p=6  ok    | . . pick up prism nearest the left . put it on blue block
+   @ . / []:3 . / []:3
+
+25856   0.465s  n=1  p=6  ok    | . . pick up red cube . put it on green cube nearest top left corner .
+   @ . / []:3 . / []:3
+
+25859   0.436s  n=1  p=6  ok    | . . pick up blue block . put it on grey block
+   @ . / []:3 . / []:3
+
+25868   0.566s  n=1  p=6  ok    | . . pick up grey block . put on tower nearest the left edge
+   @ . / []:3 . / []:3
+
+25874   0.456s  n=1  p=6  ok    | . . pick up pyramid from yellow tower . put it on blue tower
+   @ . / []:3 . / []:3
+
+25877   0.459s  n=1  p=6  ok    | . . pick up yellow prism . put it on blue block
+   @ . / []:3 . / []:3
+
+25886   0.458s  n=1  p=6  ok    | . . pick up red prism . put it on green block on right
+   @ . / []:3 . / []:3
+
+25889   0.436s  n=1  p=6  ok    | . . pick up prism from red block . put it on cyan block
+   @ . / []:3 . / []:3
+
+25901   0.457s  n=1  p=6  ok    | . . pick up green cube . put it on blue cube
+   @ . / []:3 . / []:3
+
+25904   0.442s  n=1  p=6  ok    | . . pick up yellow block . put it in back right corner
+   @ . / []:3 . / []:3
+
+25928   0.496s  n=1  p=6  ok    | . . move red pyramid one square left
+   @ . / []:3 . / []:3
+
+25934   0.463s  n=1  p=6  ok    | . . pick up green pyramid from a blue block . put it on the other blue block
+   @ . / []:3 . / []:3
+
+25955   0.449s  n=1  p=6  ok    | . . pick up magenta prism . put it on back right corner
+   @ . / []:3 . / []:3
+
+25976   0.447s  n=1  p=0  ok    | move prism from green block to red block
+
+25988   0.551s  n=1  p=6  ok    | . . move the red block to the top left corner
+   @ . / []:3 . / []:3
+
+26006   0.549s  n=1  p=6  ok    | . . move one blue cube from left tower and put on red - blue tower
+   @ . / []:3 . / []:3
+
+26009   0.480s  n=1  p=6  ok    | . . take red block and put on grey block
+   @ . / []:3 . / []:3
+
+26018   0.491s  n=1  p=0  ok    | move blue block onto green block in the corner
+
+26036   0.439s  n=1  p=0  ok    | move pyramid that is beside a green block onto the green block
+
+26042   0.446s  n=1  p=0  ok    | pick up pyramid nearest to back right corner
+
+26057   0.426s  n=1  p=0  ok    | put yellow pyramid on yellow block
+
+26066   0.501s  n=1  p=0  ok    | move the green prism from the yellow block onto the blue block
+
+26069   0.463s  n=1  p=0  ok    | move the yellow block onto the blue block on the right
+
+26075   0.538s  n=1  p=0  ok    | move red prism on the left onto red block on the left
+
+26087   0.473s  n=1  p=0  ok    | move magenta block onto cyan block
+
+26093   0.440s  n=1  p=0  ok    | move cyan pyramid onto green tower
+
+26096   0.455s  n=1  p=0  ok    | take the yellow block from the blue block and put it on red - blue tower
+
+26108   0.447s  n=1  p=0  ok    | move pyramid from white block and put it on the blue block
+
+26117   0.432s  n=1  p=0  ok    | put the magenta pyramid on the yellow block
+
+26120   0.476s  n=1  p=0  ok    | put the yellow pyramid on the red tower in the corner
+
+26129   0.455s  n=1  p=0  ok    | move prism that is beside a red block and put it on the blue block
+
+26144   0.451s  n=1  p=0  ok    | take cyan prism from right edge and put on green cube near right edge
+
+26153   0.444s  n=1  p=0  ok    | take pyramid from yellow cube and put it on green cube
+
+26159   0.437s  n=1  p=0  ok    | put red cube on blue cube
+
+26165   0.449s  n=1  p=0  ok    | take white cube nearest back right corner and put it on back left corner
+
+26177   0.546s  n=1  p=0  ok    | move green cube nearest the back onto the red cube nearest the back
+
+26180   0.451s  n=1  p=0  ok    | move yellow cube onto green tower
+
+26183   0.453s  n=1  p=0  ok    | take red block from tower near the back and put it on red - blue tower
+
+26186   0.484s  n=1  p=0  ok    | move magenta pyramid near the left onto the blue block
+
+26208   0.614s  n=1  p=0  ok    | pick up the yellow pyramid from the left green tower and put it on the blue block .
+
+26226   0.819s  n=1  p=0  ok    | place the green pyramid on top of the red tower closest to you .
+
+26248   0.753s  n=1  p=0  ok    | move the yellow pyramid over the blue cube .
+
+26251   0.728s  n=1  p=0  ok    | move the green pyramid nearest to the top right corner on top of the white tower .
+
+26254   0.581s  n=1  p=0  ok    | drop the cube .
+
+26257   0.511s  n=1  p=0  ok    | drop the blue cube on top of the green one .
+
+26260   7.289s  n=0  p=8  fail  | move the red cube three cells up .
+ = event:[action:move,entity:[color:red,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:3,type:tile]],relation:forward]]]
+
+26264   0.464s  n=1  p=0  ok    | pick up the pink pyramid nearest to the right and place it on top of the yellow cube .
+
+26267   0.431s  n=1  p=0  ok    | move the white cube nearest to the right on top of the tower standing in the bottom left corner .
+
+26270   0.441s  n=1  p=0  ok    | move the yellow prism on top of the gray tower .
+
+26279   0.967s  n=1  p=2  ok    | move the blue cube in the top left corner on top of the cyan tower nearest to the same corner .
+   @ same/[]:2
+
+26282   0.456s  n=1  p=0  ok    | pick up the grey cube which is placed on top of the green cube , then place it on top of the blue cube .
+
+26283   0.466s  n=1  p=0  ok    | move the blue pyramid on top of the red - gray tower .
+
+26286   0.463s  n=1  p=0  ok    | move the blue cube over the red one .
+
+26292   0.437s  n=1  p=0  ok    | pick up the blue cube nearest to the top left corner .
+
+26295   0.454s  n=1  p=0  ok    | drop the green cube .
+
+26301  15.988s  n=0  p=8  fail  | move the cyan prism one cell back .
+ = event:[action:move,entity:[color:cyan,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:backward]]]
+
+26304   0.480s  n=1  p=0  ok    | move the pink pyramid on top of the cyan tower .
+
+26307   0.497s  n=1  p=0  ok    | move the red cube in the top right corner .
+
+26315   0.503s  n=1  p=0  ok    | pick up the cyan pyramid nearest to the right edge .
+
+26324   0.562s  n=1  p=0  ok    | pick up the blue cube closest to the left edge .
+
+26327   5.079s  n=4  p=5  miss  | move the blue cube one cell to the right of the green cube .
+ = event:[action:move,entity:[color:blue,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:right,entity:[color:green,type:cube]]]]
+ - event:[action:move,entity:[color:blue,type:cube],destination:[spatial-relation:[relation:right,entity:[color:green,type:cube]]]]
+   + [relation/measure,right/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / right, (color:green)/,[type:cube]/,[]/ .,/ (entity:[color:green,type:cube]),/[]]
+   @ one/[]:3 cell/[]:2
+ - event:[action:move,entity:[color:blue,type:cube],destination:[spatial-relation:[relation:above,entity:[type:cube,spatial-relation:[relation:right,entity:[color:green,type:cube]]]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / right, (type:cube)/,[spatial-relation:[relation:right,entity:[color:green,type:cube]]]/,[]/ .,/ (entity:[color:green,type:cube]),/[]]
+   @ one/on:2 cell/cube:3
+ - event:[action:move,entity:[color:blue,type:cube,spatial-relation:[relation:above,entity:[type:cube]]],destination:[spatial-relation:[relation:right,entity:[color:green,type:cube]]]]
+   + [. / [], (spatial-relation:[relation:above,entity:[type:cube]])/,[]/,relation/measure,right/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / right, (color:green)/,[type:cube]/,[]/ .,/ (entity:[color:green,type:cube]),/[]]
+   @ one/on:2 cell/cube:3
+ - event:[action:move,entity:[color:blue,type:cube,spatial-relation:[measure:[entity:[cardinal:1,type:cube]],relation:right]],destination:[spatial-relation:[relation:above,entity:[color:green,type:cube]]]]
+   + [. / [], (spatial-relation:[measure:[entity:[cardinal:1,type:cube]],relation:right])/,[]/,relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / right, (color:green)/,[type:cube]/,[]/ .,/ (entity:[color:green,type:cube]),/[]]
+   @ cell/cube:3 of/on:2
+
+26330   0.548s  n=1  p=0  ok    | move the yellow pyramid on top of the green cube nearest to the right edge .
+
+26333   0.528s  n=1  p=0  ok    | drop the yellow cube .
+
+26337   0.551s  n=1  p=0  ok    | move the red cube 2 squares right .
+
+26352   0.761s  n=1  p=0  ok    | move the red block onto the grey block .
+
+26361   0.549s  n=1  p=0  ok    | remove one green brick and place it on top of the red brick .
+
+26369   0.549s  n=1  p=0  ok    | place the white pyramid on top of the blue cube .
+
+26375   0.556s  n=1  p=0  ok    | pick up the red prism closest to the bottom right corner and place it on top of the blue tower .
+
+26376   0.586s  n=1  p=0  ok    | move the blue pyramid on top of the blue cube .
+
+26382   9.522s  n=1  p=8  miss  | move the blue cube two cells up .
+ = event:[action:move,entity:[color:blue,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:2,type:tile]],relation:forward]]]
+ - event:[action:move,entity:[color:blue,type:cube],destination:[spatial-relation:[relation:above,entity:[type:cube-group]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:2,type:tile]),/[],entity/relation,. / forward, (type:cube-group)/,[]/]
+   @ two/to:2 cells/cubes:3 up/[]:3
+
+26385   0.439s  n=1  p=0  ok    | pick up the green pyramid nearest to the bottom right corner .
+
+26394   0.506s  n=1  p=0  ok    | pick up the yellow cube closest to the top .
+
+26402   0.497s  n=1  p=0  ok    | move the cyan pyramid standing on the floor on top of the red tower nearest to the right edge .
+
+26403   0.478s  n=1  p=0  ok    | pick up the yellow prism and place it on top of the grey cube .
+
+26407   0.450s  n=1  p=0  ok    | move the red cube in the bottom right corner .
+
+26414   0.458s  n=1  p=0  ok    | move the grey pyramid on top of the tower nearest to the bottom right corner .
+
+26419  59.246s  n=0  p=8  fail  | move the green cube from the red - yellow tower and place it on top of the green - red - blue tower .
+ = sequence:[event:[action:take,entity:[id:1,color:green,type:cube,spatial-relation:[relation:above,entity:[color:red,color:yellow,type:stack]]]],event:[action:drop,entity:[type:reference,reference-id:1],destination:[spatial-relation:[relation:above,entity:[color:green,color:red,color:cyan,type:stack]]]]]
+
+26425   0.453s  n=1  p=0  ok    | move the blue cube nearest to the left edge on top of the blue - green tower .
+
+26428   0.456s  n=1  p=0  ok    | move the yellow pyramid on top of the blue cube .
+
+26435   0.501s  n=1  p=0  ok    | pick up the yellow pyramid nearest to the top and place on the tower nearest to the bottom edge .
+
+26441   0.434s  n=1  p=0  ok    | drop the white cube .
+
+26444   0.466s  n=1  p=0  ok    | move the gray cube nearest to the top on top of the other gray cube .
+
+26451   0.438s  n=1  p=0  ok    | pick up the red cube .
+
+26454   0.497s  n=1  p=0  ok    | move the red cube nearest to the left on top of the single blue cube .
+
+26460   0.533s  n=1  p=0  ok    | pick up the grey cube from the yellow cube and place it 1 square up .
+
+26463   0.515s  n=1  p=2  ok    | pick up the red cube and move it on top of the forth green cube on the right .
+   @ forth/[]:2
+
+26481   0.444s  n=1  p=0  ok    | pick up the red block and place it on top of the grey block .
+
+26484   0.469s  n=1  p=0  ok    | move the red cube 1 grid back .
+
+26490   0.474s  n=1  p=0  ok    | pick up the blue prism and place it on the grey cube closest to the top left corner .
+
+26494   0.447s  n=1  p=0  ok    | move the yellow pyramid on top of the white cube .
+
+26497   0.455s  n=1  p=0  ok    | move the blue cube on top of the red one .
+
+26504   0.504s  n=1  p=0  ok    | move the grey cube which is on the yellow cube , one square up .
+
+26507   2.159s  n=1  p=6  miss  | grab the pink cube which is standing on the blue cube .
+ = event:[action:take,entity:[color:magenta,type:cube,spatial-relation:[relation:above,entity:[color:cyan,type:cube]]]]
+ - event:[action:take,entity:[color:magenta,type:cube,spatial-relation:[relation:above,entity:[type:cube]]]]
+   + [type/color,cube/cyan,[]/ .,/ (type:cube),/[]]
+   @ standing/[]:3 blue/[]:3
+
+26513   0.584s  n=1  p=0  ok    | move the green pyramid in the top left corner .
+
+26518   0.531s  n=1  p=0  ok    | move the yellow cube in the top left corner .
+
+26522   0.451s  n=1  p=0  ok    | move the red cube in the top right corner .
+
+26526   0.470s  n=1  p=0  ok    | move the cyan pyramid in the top left corner .
+
+26537   0.454s  n=1  p=0  ok    | pick up the green cube .
+
+26546   0.476s  n=1  p=0  ok    | move the blue cube standing in the corner on top of the cyan cube nearest to the top .
+
+26550   0.456s  n=1  p=0  ok    | move the pink pyramid in the bottom left corner .
+
+26561   0.440s  n=1  p=0  ok    | pick up the yellow prism .
+
+26570   0.452s  n=1  p=0  ok    | pick up the red prism closest to the left .
+
+26579   0.458s  n=1  p=0  ok    | pick up the blue cube next to the white cube .
+
+26585   1.564s  n=1  p=8  miss  | transfer the yellow prism to the top of the green tower .
+ = event:[action:move,entity:[color:yellow,type:prism],destination:[spatial-relation:[relation:above,entity:[color:green,type:stack]]]]
+ - event:[action:take,entity:[color:yellow,type:prism,spatial-relation:[relation:above,entity:[type:stack]]]]
+   + [take/move,. / [], (spatial-relation:[relation:above,entity:[type:stack]])/,[]/,[]/ .,/ (destination:[spatial-relation:[relation:above,entity:[color:green,type:stack]]]),/[]]
+   @ transfer/take:5 green/[]:3
+
+26588   0.451s  n=1  p=0  ok    | pick up the red prism on the right edge and place it on top of the grey - blue tower .
+
+26593   0.456s  n=1  p=0  ok    | move the blue cube nearest to the right on top of the yellow cube nearest to the left .
+
+26605   7.869s  n=0  p=8  fail  | move the blue cube four cells up .
+ = event:[action:move,entity:[color:blue,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:4,type:tile]],relation:forward]]]
+
+26618   0.458s  n=1  p=0  ok    | move the cyan prism closest to the top onto the green block .
+
+26624   0.469s  n=1  p=0  ok    | drop the yellow cube .
+
+26627   0.460s  n=1  p=0  ok    | move the cyan pyramid on top of the green cube closest to the top right corner .
+
+26628   0.446s  n=1  p=0  ok    | move the pink prism on top of the red cube nearest to the left edge .
+
+26633   0.532s  n=1  p=0  ok    | move the white cube standing in the top left corner on top of the red cube nearest to the right edge .
+
+26636   0.453s  n=1  p=0  ok    | pick up the red cube .
+
+26639   0.455s  n=1  p=0  ok    | drop the blue pyramid .
+
+26640   0.496s  n=1  p=0  ok    | move one yellow brick on top of the blue brick which is closest to the left .
+
+26648   0.571s  n=1  p=0  ok    | move the green block one space back .
+
+26649   0.450s  n=1  p=0  ok    | move the blue prism on top of the green cube nearest to the left edge .
+
+26654   0.530s  n=1  p=0  ok    | move the gray prism on top of the tower nearest to the top left corner .
+
+26657   0.670s  n=1  p=0  ok    | place the red cube in the top right corner .
+
+26660   0.540s  n=1  p=0  ok    | move the green cube to the top of the red - yellow tower .
+
+26662   0.517s  n=1  p=0  ok    | place the red pyramid on top of the white tower .
+
+26666   0.523s  n=1  p=0  ok    | move the green pyramid in the top left corner .
+
+26667   0.533s  n=1  p=0  ok    | pick up the pyramid closest to the right and place it onto the red - yellow tower .
+
+26672   0.520s  n=1  p=0  ok    | move the red prism on top of the gray cube nearest to the top right corner .
+
+26675   0.578s  n=1  p=0  ok    | pick up the red cube nearest to the left edge .
+
+26680   0.604s  n=1  p=0  ok    | move the red triangle two squares back .
+
+26683   0.537s  n=1  p=0  ok    | pick up the cyan prism placed on the grey cube .
+
+26686   0.557s  n=1  p=0  ok    | pick up the grey cube and place it on top of the green cube .
+
+26690   0.476s  n=1  p=0  ok    | pick up the green cube nearest to the top right corner .
+
+26693   0.452s  n=1  p=0  ok    | pick up the green box and place it on top of the grey box .
+
+26699   0.462s  n=1  p=0  ok    | pick up the red cube nearest to the left edge .
+
+26702   0.493s  n=1  p=0  ok    | move the blue cube to the top of the single green cube .
+
+26707   0.467s  n=1  p=0  ok    | pick up the pink prism .
+
+26713   0.436s  n=1  p=0  ok    | pick up the red prism and place it on the single green cube .
+
+26719   0.435s  n=1  p=0  ok    | pick up the red prism .
+
+26725   0.455s  n=1  p=0  ok    | pick up the red prism closest to the left .
+
+26737   0.461s  n=1  p=0  ok    | pick up the blue cube from the blue - green tower , then place it on top of the single yellow cube .
+
+26739   0.516s  n=1  p=0  ok    | pick up the red pyramid .
+
+26742   0.504s  n=1  p=0  ok    | pick up the green cube nearest to the bottom right corner .
+
+26748   0.572s  n=1  p=0  ok    | move the red cube on top of the green cube nearest to the right edge .
+
+26751   0.532s  n=1  p=0  ok    | move the blue block standing in the top left corner on top of the red cube nearest to the top edge .
+
+26757   0.478s  n=1  p=0  ok    | move the pink pyramid on top of the blue cube nearest to the left edge .
+
+26760   0.471s  n=1  p=0  ok    | drop the gray cube .
+
+26763   0.461s  n=1  p=0  ok    | pick up the blue cube nearest to the right edge .
+
+26766   0.502s  n=1  p=0  ok    | pick up the white cube standing in the top left corner .
+
+26769   0.522s  n=1  p=0  ok    | move the green pyramid nearest to the white tower on top of the white tower .
+
+26772   0.479s  n=1  p=0  ok    | pick up the white cube .
+
+26775   0.466s  n=1  p=0  ok    | move the red cube in the bottom left corner .
+
+26778   0.575s  n=1  p=0  ok    | move the white pyramid on top of the red cube standing in the bottom left corner .
+
+26784   0.455s  n=1  p=0  ok    | move the gray pyramid standing on a cyan cube on top of the blue cube .
+
+26787   0.456s  n=1  p=0  ok    | drop the green cube .
+
+26790   9.968s  n=1  p=4  miss  | move the blue cube in the bottom left corner one cell right of the gray cube nearest to the top .
+ = event:[action:move,entity:[color:blue,type:cube,spatial-relation:[relation:within,entity:[indicator:back,indicator:left,type:corner]]],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:right,entity:[color:gray,type:cube,spatial-relation:[relation:nearest,entity:[indicator:front,type:region]]]]]]
+ - event:[action:move,entity:[color:blue,type:cube,spatial-relation:[relation:within,entity:[indicator:back,indicator:left,type:corner]]],destination:[spatial-relation:[relation:right,entity:[color:gray,type:cube,spatial-relation:[relation:nearest,entity:[indicator:front,type:region]]]]]]
+   + [relation/measure,right/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / right, (color:gray)/,[type:cube,spatial-relation:[relation:nearest,entity:[indicator:front,type:region]]]/,[]/ .,/ (entity:[color:gray,type:cube,spatial-relation:[relation:nearest,entity:[indicator:front,type:region]]]),/[]]
+   @ one/on:2 cell/[]:2
+
+26799   0.523s  n=1  p=0  ok    | move the blue cube nearest to the right edge on top of the tower standing in the bottom right corner .
+
+26802   0.439s  n=1  p=0  ok    | drop the red prism .
+
+26805   0.459s  n=1  p=0  ok    | move the green pyramid on top of the yellow cube .
+
+26808   0.463s  n=1  p=0  ok    | drop the blue cube .
+
+26811   0.498s  n=1  p=0  ok    | move the gray cube nearest to the right edge on top of the tower standing in the bottom right corner .
+
+26820   0.481s  n=1  p=0  ok    | move the gray cube nearest to the bottom edge on top of the tower standing in the bottom left corner .
+
+26823  47.661s  n=0  p=8  fail  | move the green cube standing in the bottom left corner three cells up .
+ = event:[action:move,entity:[color:green,type:cube,spatial-relation:[relation:within,entity:[indicator:back,indicator:left,type:corner]]],destination:[spatial-relation:[measure:[entity:[cardinal:3,type:tile]],relation:forward]]]
+
+26829   0.471s  n=1  p=0  ok    | move the pink prism on top of the cyan tower .
+
+26832   0.563s  n=1  p=0  ok    | drop the red cube .
+
+26835  86.745s  n=0  p=8  fail  | move the green pyramid nearest to the right edge one cell up .
+ = event:[action:move,entity:[color:green,type:prism,spatial-relation:[relation:nearest,entity:[indicator:right,type:edge]]],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:forward]]]
+
+26838   0.471s  n=1  p=0  ok    | drop the blue cube .
+
+26841   0.488s  n=1  p=0  ok    | move the white cube nearest to the bottom right corner in the bottom left corner .
+
+26844   3.764s  n=1  p=5  miss  | move the blue cube one cell to the left .
+ = event:[action:move,entity:[color:blue,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:left]]]
+ - event:[action:move,entity:[color:blue,type:cube],destination:[spatial-relation:[relation:above,entity:[type:cube,spatial-relation:[relation:within,entity:[indicator:left,type:region]]]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / left, (type:cube)/,[spatial-relation:[relation:within,entity:[indicator:left,type:region]]]/]
+   @ one/on:2 cell/cube:3
+
+26847   0.476s  n=1  p=0  ok    | move the blue pyramid in the bottom right corner .
+
+26850  74.169s  n=1  p=7  miss  | move the blue cube nearest to the top left corner one cell backwards .
+ = event:[action:move,entity:[color:blue,type:cube,spatial-relation:[relation:nearest,entity:[indicator:front,indicator:left,type:corner]]],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:backward]]]
+ - event:[action:move,entity:[id:1,color:blue,type:cube,spatial-relation:[relation:nearest,entity:[indicator:front,type:region]]],destination:[spatial-relation:[relation:within,entity:[indicator:front,indicator:left,type:corner,spatial-relation:[measure:[entity:[type:type-reference,reference-id:1]],relation:backward]]]]]
+   + [id/color,1/blue,color/type,blue/cube,type/spatial-relation,cube/ .,/ (relation:nearest),/[entity:[indicator:front,indicator:left,type:corner]],. / [], (spatial-relation:[relation:nearest,entity:[indicator:front,type:region]])/,[]/,relation/measure,within/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / backward, (indicator:front)/,[indicator:left,type:corner,spatial-relation:[measure:[entity:[type:type-reference,reference-id:1]],relation:backward]]/]
+   @ to/top:2 the/to:3 cell/[]:2
+
+26856   0.444s  n=1  p=0  ok    | drop the red cube .
+
+26865   0.458s  n=1  p=0  ok    | move the red pyramid standing on top of a yellow cube on top of the tower nearest to the top left corner .
+
+26868   7.289s  n=0  p=8  fail  | move the red pyramid four cells back .
+ = event:[action:move,entity:[color:red,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:4,type:tile]],relation:backward]]]
+
+26871   0.525s  n=1  p=0  ok    | pick up the blue cube nearest to the bottom edge .
+
+26874   0.456s  n=1  p=0  ok    | move the blue cube on top of the green one .
+
+26877   7.490s  n=1  p=8  miss  | move the red cube two cells up .
+ = event:[action:move,entity:[color:red,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:2,type:tile]],relation:forward]]]
+ - event:[action:move,entity:[color:red,type:cube],destination:[spatial-relation:[relation:above,entity:[type:cube-group]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:2,type:tile]),/[],entity/relation,. / forward, (type:cube-group)/,[]/]
+   @ two/to:2 cells/cubes:3 up/[]:3
+
+26886   6.829s  n=0  p=8  fail  | move the green prism four cells up .
+ = event:[action:move,entity:[color:green,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:4,type:tile]],relation:forward]]]
+
+26889   0.497s  n=1  p=0  ok    | drop the red cube .
+
+26892   0.518s  n=1  p=0  ok    | move the pink prism on top of the tower nearest to the left edge .
+
+26895   0.447s  n=1  p=0  ok    | move the yellow cube on top of the red one nearest to the top left corner .
+
+26898   0.456s  n=1  p=0  ok    | pick up the red cube .
+
+26901   0.436s  n=1  p=0  ok    | drop the red prism .
+
+26904   3.298s  n=1  p=5  miss  | move the red prism one cell to the left .
+ = event:[action:move,entity:[color:red,type:prism],destination:[spatial-relation:[measure:[entity:[cardinal:1,type:tile]],relation:left]]]
+ - event:[action:move,entity:[color:red,type:prism],destination:[spatial-relation:[relation:above,entity:[type:cube,spatial-relation:[relation:within,entity:[indicator:left,type:region]]]]]]
+   + [relation/measure,above/ .,/ (entity:[cardinal:1,type:tile]),/[],entity/relation,. / left, (type:cube)/,[spatial-relation:[relation:within,entity:[indicator:left,type:region]]]/]
+   @ one/on:2 cell/cube:3
+
+26916   0.473s  n=1  p=0  ok    | move the red prism standing on top of the blue cube on top of the green cube nearest to the right edge .
+
+26919   0.460s  n=1  p=0  ok    | pick up the green cube .
+
+26928   0.467s  n=1  p=0  ok    | move the red prism nearest to the left on top of the green cube .
+
+26934   0.536s  n=1  p=0  ok    | move the red cube on top of the green cube nearest to the bottom left corner .
+
+26937   0.562s  n=1  p=0  ok    | move the blue cube nearest to the left edge on top of the other blue cube .
+
+26940   0.543s  n=1  p=0  ok    | move the white cube nearest to the top on top of the tower standing in the top left corner .
+
+26943   0.538s  n=1  p=0  ok    | move the yellow cube on top of the single blue cube .
+
+26946   0.548s  n=1  p=0  ok    | move the green pyramid nearest to the white tower on top of the white tower .
+
+26952   0.451s  n=1  p=0  ok    | drop the blue pyramid .
+
+26955   0.468s  n=1  p=0  ok    | move the red cube standing on top of the white cube on top of the red - blue tower .
+
+26970   0.472s  n=1  p=0  ok    | move the green cube nearest to the right edge on top of the other green cube .
+
+26973   0.452s  n=1  p=0  ok    | move the blue cube on top of the gray one .
+
+26976   7.151s  n=0  p=8  fail  | move the red cube two cells up .
+ = event:[action:move,entity:[color:red,type:cube],destination:[spatial-relation:[measure:[entity:[cardinal:2,type:tile]],relation:forward]]]
+
+26985   3.247s  n=1  p=6  ok    | move the green pyramid three cells to the left .
+   @ cells/[]:2 to/tile:4
+
+26994   0.467s  n=1  p=0  ok    | place the red cube on top of the blue one .
+
+26997   0.463s  n=1  p=0  ok    | place the pink pyramid on top of the green - blue tower .
+
+27003   0.461s  n=1  p=0  ok    | move the white cube in the top left corner .
+
+27012   0.474s  n=1  p=0  ok    | move the white cube nearest to the left edge in the bottom left corner .
+
+27015   0.428s  n=1  p=0  ok    | pick up the yellow pyramid .
+
+27018   0.517s  n=1  p=0  ok    | move the blue cube standing in the bottom left corner on top of the cyan tower nearest to the left edge .
+
+27021   0.449s  n=1  p=0  ok    | move the red cube on top of the pink one .
+
+27024   0.442s  n=1  p=0  ok    | pick up the cyan pyramid .
+
+27027   0.480s  n=1  p=0  ok    | move the red pyramid standing on a yellow cube on top of the gray tower nearest to the top left corner .
+
+27030   0.455s  n=1  p=0  ok    | pick up the red cube .
+
+27036   0.456s  n=1  p=0  ok    | move the yellow cube on top of the red cube nearest to the left edge .
+
+27042   0.460s  n=1  p=0  ok    | move the red cube on top of the green one nearest to the top left corner .
+
+27051   0.477s  n=1  p=0  ok    | move the blue cube nearest to the bottom edge on top of the other blue cube .
+
+27054   0.462s  n=1  p=0  ok    | drop the blue pyramid on top of the green cube .
+
+27079   0.463s  n=1  p=0  ok    | move the blue block on top of the yellow block , to the top of the green and blue blocks .
+
+27088   0.515s  n=1  p=2  ok    | move the red pyramid on the top of the double white block , place it on top of the green block .
+   @ double/[]:2
+
+27091   0.624s  n=1  p=0  ok    | move the blue block on top of the green block to the red block .
+
+27094   0.549s  n=1  p=0  ok    | move the pink block to the top of the light blue and pink and light blue block .
+
+27106   0.515s  n=1  p=0  ok    | move the yellow pyramid to the top of the gray block .
+
+
+{1275.938s} TOTAL: 909 [OK: 844, AMB-OK: 5, AMB-MISS: 0, MISS: 31, FAIL: 29]

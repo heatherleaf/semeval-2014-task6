@@ -33,8 +33,9 @@ public class check_semantics {
                 check(scene, tree);
             }
         } else {
-            System.err.println("Usage: java -jar [jar-path] command-nr\n");
-            System.err.println("Usage: java -jar [jar-path]\nscene-nr semantics-tree\n...");
+            System.err.println("Usage: java -cp [jar-path] check_semantics command-nr\n");
+            System.err.println("Usage: java -cp [jar-path] check_semantics\n" +
+                               "scene-nr semantics-tree\n...");
             System.exit(1);
         }
     }
@@ -48,11 +49,11 @@ public class check_semantics {
         try {
             ActionNode node = Csp.fromAction(rcl, rcl);
             moves = node.solve(model);
-        } catch (CoreException | ClassCastException e) {
+		} catch (CoreException e) {
+        } catch (ClassCastException e) {
         }
 
         System.out.print(moves);
         System.out.println(".");
     }
 }
-
